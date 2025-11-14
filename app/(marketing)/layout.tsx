@@ -31,8 +31,12 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${cormorantGaramond.variable} antialiased`}
       >
-        <Header />
-        {children}
+        <div className="flex min-h-screen w-full flex-col">
+          <Header />
+          <main className="flex flex-1 flex-col px-4 pt-10 lg:px-8">
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   );
