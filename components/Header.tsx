@@ -5,7 +5,12 @@ function Header() {
   return (
     <header>
       <Link href="/">
-        <Image src="public/images/charm-logo.png" alt="logo" />
+        <Image
+          src="/images/charm-logo.png"
+          width={120}
+          height={60}
+          alt="logo"
+        />
       </Link>
     </header>
   );
