@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "../globals.css";
 import Header from "@/components/layout/header/Header";
+import 
+  import Footer from "@/components/layout/footer/Footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -70,7 +72,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default function MarketingLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -83,6 +85,7 @@ export default function RootLayout({
           <main className="flex flex-1 flex-col px-4 pt-10 lg:px-8">
             {children}
           </main>
+          <Footer />
         </div>
       </body>
     </html>
