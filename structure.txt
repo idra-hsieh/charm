@@ -1,0 +1,99 @@
+// tree -l 5 --ignore "node_modules,.next,.git" > structure.txt
+
+
+/Users/idra-hsieh/Documents/Work/SWE/serious-projects/charm-frontend
+├── README.md
+├── app
+|  ├── (app)
+|  |  ├── dashboard
+|  |  |  └── page.tsx
+|  |  └── layout.tsx
+|  ├── (auth)
+|  |  ├── layout.tsx
+|  |  ├── login
+|  |  |  └── page.tsx
+|  |  └── signup
+|  |     └── page.tsx
+|  ├── (marketing)
+|  |  ├── (legal)
+|  |  |  ├── accessibility
+|  |  |  |  └── page.tsx
+|  |  |  ├── privacy
+|  |  |  |  └── page.tsx
+|  |  |  └── terms
+|  |  |     └── page.tsx
+|  |  ├── (support)
+|  |  |  ├── contact
+|  |  |  |  └── page.tsx
+|  |  |  ├── faq
+|  |  |  |  └── page.tsx
+|  |  |  └── tutorial
+|  |  |     └── page.tsx
+|  |  ├── about
+|  |  |  └── page.tsx
+|  |  ├── cmi-test
+|  |  |  └── page.tsx
+|  |  ├── layout.tsx
+|  |  ├── money-identities
+|  |  |  └── page.tsx
+|  |  ├── page.tsx
+|  |  └── resources
+|  |     ├── page.tsx
+|  |     └── prompts
+|  |        └── page.tsx
+|  ├── favicon.ico
+|  ├── fonts
+|  |  └── Optima
+|  |     ├── optima-bold.ttf
+|  |     ├── optima-italic.ttf
+|  |     ├── optima-medium.ttf
+|  |     └── optima-regular.ttf
+|  └── globals.css
+├── components
+|  ├── animation
+|  |  └── PageTransition.tsx
+|  ├── features
+|  |  └── cmi
+|  |     ├── CMIEmailStep.tsx
+|  |     └── CharmMoneyIndicatorFlow.tsx
+|  ├── form
+|  |  ├── CMIQuestionCard.tsx
+|  |  └── LikertScale.tsx
+|  ├── layout
+|  |  ├── footer
+|  |  |  ├── Footer.tsx
+|  |  |  └── FooterSection.tsx
+|  |  └── header
+|  |     ├── DesktopNav.tsx
+|  |     ├── Header.tsx
+|  |     └── MobileNav.tsx
+|  └── ui
+|     ├── input.tsx
+|     └── label.tsx
+├── components.json
+├── eslint.config.mjs
+├── lib
+|  ├── cmi
+|  |  ├── questions.ts
+|  |  └── types.ts 
+|  ├── navigation.ts
+|  └── utils.ts
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+|  ├── favicon.ico
+|  └── images
+|     ├── charm-logo.png
+|     └── marble-light.jpg
+├── structure.txt
+└── tsconfig.json
+
+directory: 1492 file: 10245
+
+ignored: directory (16)
+
+
+[2K[1G
