@@ -21,12 +21,13 @@ function NavLink({ item, exact = false, className, onClick }: NavLinkProps) {
       ? pathname === item.href
       : pathname === item.href || pathname.startsWith(item.href + "/"));
 
-  const baseClasses = "text-sm font-semibold transition-colors duration-150";
+  const baseClasses =
+    "text-sm font-secondary font-semibold transition-colors duration-150";
 
   const activeClasses =
-    "bg-accent text-background rounded-full px-5 py-2 shadow-md";
+    "bg-accent text-white rounded-full px-4 py-1.5 shadow-md";
 
-  const inactiveClasses = "text-foreground hover:text-accent";
+  const inactiveClasses = "text-foreground/80 hover:text-accent";
 
   // external links: <a> + new tab
 

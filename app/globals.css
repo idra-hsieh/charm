@@ -48,10 +48,12 @@
   --breakpoint-md: 48rem;
   /* laptop/desktop (1024px) */
   --breakpoint-lg: 64rem;
+  /* specifically for nav */
+  --breakpoint-nav: 1100px;
 }
 
 :root {
-  --background-surface: url("/images/marble-light.jpg");
+  --background-surface: url('/images/marble-light.jpg');
   --radius: 0.625rem;
   --background: #E8E5E0;
   --foreground: #050505;
