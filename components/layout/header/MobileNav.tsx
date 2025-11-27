@@ -45,7 +45,7 @@ function MobileNav() {
         )}
       >
         {/* Centered Logo */}
-        <div className="flex w-full justify-center items-center gap-6 mt-4">
+        <div className="flex w-full justify-center items-center gap-6 mt-7">
           <Link
             href="/"
             aria-label="Charm home"
