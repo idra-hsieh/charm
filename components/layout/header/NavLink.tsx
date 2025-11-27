@@ -8,11 +8,16 @@ import type { NavItem } from "@/lib/navigation";
 type NavLinkProps = {
   item: NavItem;
   exact?: boolean;
-  className: string;
+  className?: string;
   onClick?: () => void;
 };
 
-function NavLink({ item, exact = false, className, onClick }: NavLinkProps) {
+function NavLink({
+  item,
+  exact = false,
+  className = "",
+  onClick,
+}: NavLinkProps) {
   const pathname = usePathname();
 
   const isActive =

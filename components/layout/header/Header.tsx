@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import DesktopNav from "./DesktopNav";
 import { GlobeIcon } from "@/components/ui/icons/lucide-globe";
+import MobileNav from "./MobileNav";
 
 function Header() {
   return (
@@ -54,6 +55,11 @@ function Header() {
           >
             Try Charm for Free
           </Link>
+        </div>
+
+        {/* Right: Mobile Nav Trigger */}
+        <div className="nav:hidden">
+          <MobileNav />
         </div>
       </div>
     </header>

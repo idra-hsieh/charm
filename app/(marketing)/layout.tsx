@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Charm | Where your money and life philosophy align.",
     description: "Take the CMI-I test and discover your financial personality.",
-    url: "https://domain.com", // TO-DO: add domain
+    url: "https://charm.money",
     siteName: "Charm",
     locale: "en_US",
     type: "website",
