@@ -1,7 +1,46 @@
+"use client";
+
+import { useRouter } from "next/navigation";
 import React from "react";
 
-function page() {
-  return <div>page</div>;
+function LoginPlaceholder() {
+  const router = useRouter();
+
+  return (
+    <main className="fixed inset-0 z-40 overflow-hidden">
+      {/* Placeholder Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url("/images/login-placeholder.png")`,
+          backgroundSize: "contain",
+          backgroundColor: "black",
+        }}
+      />
+
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-foreground/60 backdrop-blur-sm" />
+
+      {/* Back button */}
+      <button
+        onClick={() => router.back()}
+        className="absolute top-10 left-10 lg:top-15 lg:left-15 z-20 text-white/80 hover:text-accent transition-colors duration-150 text-3xl"
+        aria-label="Go back"
+      >
+        ←
+      </button>
+
+      {/* Centered Content */}
+      <div className="relative z-10 h-full flex flex-col items-center justify-center animate-fade-in">
+        <h1 className="text-accent lg:text-6xl text-5xl font-semibold font-primary">
+          Coming Soon...
+        </h1>
+        <p className="font-primary text-white/80 mt-6 text-md lg:text-lg">
+          This feature is under development.
+        </p>
+      </div>
+    </main>
+  );
 }
 
-export default page;
+export default LoginPlaceholder;
