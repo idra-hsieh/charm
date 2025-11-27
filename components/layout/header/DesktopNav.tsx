@@ -4,12 +4,22 @@ import { mainNavItems } from "@/lib/navigation";
 import NavLink from "./NavLink";
 import React from "react";
 import { useTranslations } from "next-intl";
+import { cn } from "@/lib/utils";
 
-function DesktopNav() {
+type DesktopNavProps = {
+  className?: string;
+};
+
+function DesktopNav({ className }: DesktopNavProps) {
   const t = useTranslations("header");
 
   return (
-    <nav className="hidden lg:flex items-center gap-6">
+    <nav
+      className={cn(
+        "flex items-center gap-6", // display behavior handled by parent (e.g. hidden nav:flex)
+        className
+      )}
+    >
       {mainNavItems.map((item, index) => (
         <React.Fragment key={item.href}>
           {/* divider line */}

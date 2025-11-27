@@ -64,7 +64,7 @@ function NavLink({
         className
       )}
     >
-      {item.labelKey}
+      {label}
     </Link>
   );
 }
