@@ -31,7 +31,7 @@ function MobileNav() {
           focus-visible:ring-2 focus-visible:ring-accent
         "
         >
-          <CiMenuFries className="h-6 w-6 text-accent stroke-[0.5]" />
+          <CiMenuFries className="h-6 w-6 text-accent stroke-[1]" />
         </button>
       </SheetTrigger>
 
