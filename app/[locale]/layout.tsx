@@ -14,22 +14,22 @@ const inter = Inter({
 const optima = localFont({
   src: [
     {
-      path: "./fonts/Optima/optima-regular.ttf",
+      path: "../fonts/Optima/optima-regular.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "./fonts/Optima/optima-italic.ttf",
+      path: "../fonts/Optima/optima-italic.ttf",
       weight: "400",
       style: "italic",
     },
     {
-      path: "./fonts/Optima/optima-medium.ttf",
+      path: "../fonts/Optima/optima-medium.ttf",
       weight: "500",
       style: "normal",
     },
     {
-      path: "./fonts/Optima/optima-bold.ttf",
+      path: "../fonts/Optima/optima-bold.ttf",
       weight: "700",
       style: "normal",
     },
