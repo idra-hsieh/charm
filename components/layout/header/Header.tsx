@@ -3,6 +3,7 @@ import Link from "next/link";
 import DesktopNav from "./DesktopNav";
 import { GlobeIcon } from "@/components/ui/icons/lucide-globe";
 import MobileNav from "./MobileNav";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 function Header() {
   return (
@@ -32,13 +33,7 @@ function Header() {
         {/* Right: Desktop Utility Nav*/}
         <div className="hidden nav:flex items-center gap-6">
           {/* Language Switch */}
-          <button
-            type="button"
-            aria-label="Change language"
-            className="inline-flex h-9 w-9 items-center justify-center"
-          >
-            <GlobeIcon />
-          </button>
+          <LanguageSwitcher />
 
           {/* Log In */}
           <Link

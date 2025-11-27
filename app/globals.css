@@ -49,7 +49,7 @@
   /* laptop/desktop (1024px) */
   --breakpoint-lg: 64rem;
   /* specifically for nav */
-  --breakpoint-nav: 1100px;
+  --breakpoint-nav: 1200px;
 }
 
 :root {

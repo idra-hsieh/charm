@@ -47,7 +47,7 @@ function NavLink({
         onClick={onClick}
         className={cn(baseClasses, inactiveClasses, className)}
       >
-        {item.labelKey}
+        {label}
       </a>
     );
   }
