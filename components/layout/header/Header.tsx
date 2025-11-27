@@ -51,8 +51,12 @@ function Header() {
           </Link>
         </div>
 
-        {/* Right: Mobile Nav Trigger */}
-        <div className="nav:hidden">
+        {/* Right: Language Switch + Mobile Nav Trigger */}
+        <div className="nav:hidden flex items-center gap-6">
+          {/* Language Switch */}
+          <LanguageSwitcher />
+
+          {/* Mobile Nav Trigger */}
           <MobileNav />
         </div>
       </div>

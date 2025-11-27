@@ -11,10 +11,9 @@ import { mainNavItems } from "@/lib/navigation";
 import { CiMenuFries } from "react-icons/ci";
 import NavLink from "./NavLink";
 import { cn } from "@/lib/utils";
-import LanguageSwitcher from "./LanguageSwitcher";
-import { X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Image from "next/image";
 
 function MobileNav() {
   const t = useTranslations("header");
@@ -41,19 +40,29 @@ function MobileNav() {
         side="right"
         className={cn(
           "flex h-full w-full max-w-xs flex-col",
-          "border-l border-foreground/10 bg-background/95 backdrop-blur-xl",
+          "border-l border-foreground/10 bg-marble backdrop-blur-xl",
           "px-4 pt-6 pb-6 gap-6"
         )}
       >
-        {/* Top row: Language */}
-        <div>
-          <LanguageSwitcher className="shadow-none border-foreground/15" />
+        {/* Centered Logo */}
+        <div className="flex w-full justify-center items-center gap-6 mt-4">
+          <Link
+            href="/"
+            aria-label="Charm home"
+            className="flex items-center gap-2"
+          >
+            <Image
+              src="/images/charm-logo.png"
+              alt="Charm logo"
+              width={116}
+              height={43}
+              priority
+            />
+          </Link>
         </div>
 
-        {/* Tagline */}
-        <p className="px-2 text-md italic font-primary font-semibold text-accent">
-          Charm: Where your money and life philosophy align.
-        </p>
+        {/* Divider */}
+        <div className="h-px w-full bg-foreground/10 mt-2" />
 
         {/* Main navigation */}
         <nav className="flex flex-col gap-2 mt-2">
