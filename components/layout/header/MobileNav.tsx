@@ -1,88 +1,97 @@
 "use client";
 
 import { GlobeIcon } from "@/components/ui/icons/lucide-globe";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { mainNavItems } from "@/lib/navigation";
-import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import NavLink from "./NavLink";
+import { cn } from "@/lib/utils";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { X } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-
-type LanguageCode = "en" | "zh-TW";
 
 function MobileNav() {
-  const [open, setOpen] = useState(false);
-  const [language, setLanguage] = useState<LanguageCode>("en");
-  const pathname = usePathname;
-
-  const handleLanguageChange = (lang: LanguageCode) => {
-    setLanguage(lang);
-  };
+  const t = useTranslations("header");
 
   return (
-    <Sheet open={open} onOpenChange={setOpen}>
-      {/* Trigger: hamburger button */}
+    <Sheet>
+      {/* Trigger button */}
       <SheetTrigger asChild>
         <button
           aria-label="Open navigation menu"
           className="
-            inline-flex items-center justify-center rounded-md
-            transition-all duration-150 hover:opacity-80 hover:scale-[1.1]
-            active:scale-[0.96] focus-visible:ring-2 focus-visible:ring-accent
-          "
+          inline-flex items-center justify-center rounded-md
+          transition-all duration-150 hover:opacity-80 hover:scale-[1.05]
+          active:scale-[0.97] focus-visible:outline-none
+          focus-visible:ring-2 focus-visible:ring-accent
+        "
         >
           <CiMenuFries className="h-6 w-6 text-accent stroke-[0.5]" />
         </button>
       </SheetTrigger>
 
-      {/* Sheet content */}
+      {/* Slide-over Panel */}
       <SheetContent
         side="right"
-        className="
-                w-[260px]
-                border-l
-                bg-marble
-                px-5 pb-6 pt-12
-                flex flex-col gap-6
-            "
+        className={cn(
+          "flex h-full w-full max-w-xs flex-col",
+          "border-l border-foreground/10 bg-background/95 backdrop-blur-xl",
+          "px-4 pt-6 pb-6 gap-6"
+        )}
       >
-        {/* Language toggle */}
-        <div
-          className="
-          inline-flex items-center rounded-full bg-muted/60
-          px-1 py-0.5 text-xs border border-border
-        "
-        >
-          <button type="button" onClick={() => handleLanguageChange("en")}>
-            English
-          </button>
+        {/* Top row: Language */}
+        <div>
+          <LanguageSwitcher className="shadow-none border-foreground/15" />
         </div>
 
-        {/* Main Nav Items */}
-        <nav className="flex flex-col gap-4">
-          {mainNavItems.map((item) => (
-            <NavLink
-              key={item.href}
-              item={item}
-              className="text-base"
-              onClick={close}
-            />
-          ))}
+        {/* Tagline */}
+        <p className="px-2 text-md italic font-primary font-semibold text-accent">
+          Charm: Where your money and life philosophy align.
+        </p>
+
+        {/* Main navigation */}
+        <nav className="flex flex-col gap-2 mt-2">
+          {mainNavItems.map((item) => {
+            const label = t(item.labelKey);
+
+            return (
+              <SheetClose asChild key={item.href}>
+                <NavLink item={item} label={label} variant="mobile" />
+              </SheetClose>
+            );
+          })}
         </nav>
 
-        {/* Separator */}
-        <div className="h-px bg-foreground/70" />
+        {/* Divider */}
+        <div className="h-px w-full bg-foreground/10 mt-2" />
 
-        {/* Log In + CTA */}
-        <div className="flex flex-col gap-3">
-          <Link
-            href="/login"
-            onClick={close}
-            className="text-sm font-semibold underline underline-offset-2"
-          >
-            Log In
-          </Link>
+        {/* Auth actions */}
+        <div className="mt-1 flex flex-col gap-2">
+          {/* Log In */}
+          <SheetClose asChild>
+            <Link
+              href="/login"
+              className="w-full rounded-full border border-foreground/20 bg-background/80 px-4 py-2 text-sm font-secondary font-semibold text-foreground/85 text-center hover:border-accent/70 hover:bg-accent/5 transition-all"
+            >
+              {t("utility.login")}
+            </Link>
+          </SheetClose>
+
+          {/* Try Charm for Free */}
+          <SheetClose asChild>
+            <Link
+              href="/signup"
+              className="w-full rounded-full bg-foreground/80 px-4 py-2 text-sm font-secondary font-semibold text-white text-center shadow-md hover:bg-foreground transition-colors"
+            >
+              {t("utility.signup")}
+            </Link>
+          </SheetClose>
         </div>
       </SheetContent>
     </Sheet>

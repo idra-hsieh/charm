@@ -19,7 +19,11 @@ const LANGUAGES = [
   { code: "ja", flag: "🇯🇵", label: "日本語" },
 ];
 
-function LanguageSwitcher() {
+type LanguageSwitcherProps = {
+  className?: string;
+};
+
+function LanguageSwitcher({ className }: LanguageSwitcherProps) {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
@@ -73,7 +77,8 @@ function LanguageSwitcher() {
             "bg-accent/5 px-3 py-1.5 text-xs font-semibold uppercase",
             "shadow-sm backdrop-blur-md transition-all duration-150",
             "hover:border-foreground/10 hover:shadow-md hover:-translate-y-[1px]",
-            "active:translate-y-0 active:shadow-sm"
+            "active:translate-y-0 active:shadow-sm",
+            className
           )}
         >
           <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-foreground/5">

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import DesktopNav from "./DesktopNav";
-import { GlobeIcon } from "@/components/ui/icons/lucide-globe";
 import MobileNav from "./MobileNav";
 import LanguageSwitcher from "./LanguageSwitcher";
 

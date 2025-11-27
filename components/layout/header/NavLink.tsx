@@ -12,6 +12,7 @@ type NavLinkProps = {
   exact?: boolean;
   className?: string;
   onClick?: () => void;
+  variant?: "desktop" | "mobile";
 };
 
 const LOCALES = ["en", "ja"] as const;
@@ -38,6 +39,7 @@ function NavLink({
   exact = false,
   className = "",
   onClick,
+  variant = "desktop",
 }: NavLinkProps) {
   const pathname = usePathname();
   const locale = useLocale();
@@ -55,9 +57,14 @@ function NavLink({
     "text-sm font-secondary font-semibold transition-colors duration-150";
 
   const activeClasses =
-    "bg-accent text-white rounded-full px-4 py-1.5 shadow-md";
+    variant === "mobile"
+      ? "block w-full rounded-full px-4 py-2 bg-accent text-white shadow-md"
+      : "bg-accent text-white rounded-full px-4 py-1.5 shadow-md";
 
-  const inactiveClasses = "text-foreground/80 hover:text-accent";
+  const inactiveClasses =
+    variant === "mobile"
+      ? "block w-full rounded-full px-4 py-2 bg-background/60 text-foreground/85 border border-foreground/10 hover:border-accent/60 hover:bg-accent/5 hover:text-accent"
+      : "text-foreground/80 hover:text-accent";
 
   // external links: <a> + new tab
 
@@ -68,7 +75,11 @@ function NavLink({
         target="_blank"
         rel="noreferrer"
         onClick={onClick}
-        className={cn(baseClasses, inactiveClasses, className)}
+        className={cn(
+          baseClasses,
+          isActive ? activeClasses : inactiveClasses,
+          className
+        )}
       >
         {label}
       </a>
