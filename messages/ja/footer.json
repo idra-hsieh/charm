@@ -22,5 +22,16 @@
     "terms": "利用規約",
     "privacy": "プライバシーポリシー",
     "accessibility": "アクセシビリティ"
+  },
+  "meta": {
+    "copyright": "©2025 Charm.",
+    "tagline": "明快さと、思いやりを込めて"
+  },
+  "socials": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn",
+    "x": "X",
+    "youtube": "YouTube"
   }
 }

@@ -1,6 +1,5 @@
 "use client";
 
-import { GlobeIcon } from "@/components/ui/icons/lucide-globe";
 import {
   Sheet,
   SheetClose,

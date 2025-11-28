@@ -22,5 +22,16 @@
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy",
     "accessibility": "Accessibility"
+  },
+  "meta": {
+    "copyright": "©2025 Charm.",
+    "tagline": "Designed with clarity and compassion."
+  },
+  "socials": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn",
+    "x": "X",
+    "youtube": "YouTube"
   }
 }
