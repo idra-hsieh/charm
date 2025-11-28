@@ -41,7 +41,7 @@ function Footer() {
         {/* White box */}
         <div className="overflow-hidden rounded-t-xl border border-foreground/5 bg-white/80 shadow-[0_40px_120px_rgba(0,0,0,0.3)] backdrop-blur">
           {/* Footer Navigation */}
-          <div className="grid grid-cols-2 gap-y-8 gap-x-10 px-6 py-10 md:grid-cols-4 md:px-10 lg:px-14">
+          <div className="grid grid-cols-2 gap-y-8 gap-x-10 px-10 py-10 lg:grid-cols-4 sm:px-18 lg:px-14">
             {navSections.map((section) => (
               <div key={section.titleKey} className="space-y-4">
                 {/* Title */}
