@@ -51,7 +51,7 @@ function Footer() {
                   {section.links.map((linkKey) => (
                     <li key={linkKey}>
                       <Link
-                        href="#"
+                        href="/placeholder"
                         className="inline-flex items-center gap-1.5 rounded-md px-1 py-1 text-left transition duration-200 ease-out hover:-translate-y-[1px] hover:text-accent hover:underline hover:underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-accent/60"
                       >
                         <span className="h-1.5 w-1.5 rounded-full bg-accent/70"></span>
@@ -84,7 +84,13 @@ function Footer() {
                         href="#"
                         aria-label={label}
                         className="flex h-10 w-10 items-center justify-center rounded-full border border-transparent bg-primary/5 text-primary/70 transition duration-200 ease-out hover:-translate-y-[2px] hover:border-accent/60 hover:bg-accent/10 hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-accent/60"
-                      ></Link>
+                        title={label}
+                      >
+                        <Icon className="h-5 w-5" strokeWidth={1.75} />
+                      </Link>
+                      <span className="pointer-events-none absolute left-1/2 top-[-44px] -translate-x-1/2 rounded-full bg-primary text-sm text-primary-foreground px-3 py-1 opacity-0 shadow-md transition duration-200 ease-out group-hover:translate-y-1 group-hover:opacity-100">
+                        {label}
+                      </span>
                     </div>
                   );
                 })}
