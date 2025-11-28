@@ -1,27 +1,9 @@
 "use client";
 
+import { footerSections } from "@/lib/navigation";
 import { Facebook, Icon, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-
-const NAVIGATION_SECTIONS = [
-  {
-    key: "learn",
-    links: ["cmi_framework", "money_identities", "articles_guides"],
-  },
-  {
-    key: "tools",
-    links: ["charm_indicator", "daily_companion", "reflection_prompts"],
-  },
-  {
-    key: "support",
-    links: ["contact", "faq", "tutorial"],
-  },
-  {
-    key: "company",
-    links: ["terms", "privacy", "accessibility"],
-  },
-] as const;
 
 const SOCIAL_LINKS = [
   { key: "instagram", icon: Instagram },
@@ -41,21 +23,23 @@ function Footer() {
         <div className="overflow-hidden rounded-t-xl border border-black/5 bg-white/80 shadow-[0_20px_120px_rgba(0,0,0,0.15)] backdrop-blur">
           {/* Footer Navigation */}
           <div className="grid grid-cols-2 gap-y-8 gap-x-10 px-6 py-10 md:grid-cols-4 md:px-10 lg:px-14">
-            {NAVIGATION_SECTIONS.map((section) => (
-              <div key={section.key} className="space-y-4">
+            {footerSections.map((section) => (
+              <div key={section.titleKey} className="space-y-4">
                 {/* Title */}
-                <h2 className="text-lg font-semibold text-primary">{t(`${section.key}.title`)}</h2>
+                <h2 className="text-lg font-semibold text-primary">
+                  {t(section.titleKey)}
+                </h2>
 
                 {/* Bullet points */}
-                <ul className="space-y-3 text-sm text-primary/80">
-                  {section.links.map((linkKey) => (
-                    <li key={linkKey}>
+                <ul className="space-y-2 text-sm text-primary/80">
+                  {section.items.map((item) => (
+                    <li key={item.labelKey}>
                       <Link
-                        href="/placeholder"
-                        className="inline-flex items-center gap-1.5 rounded-md px-1 py-1 text-left transition duration-200 ease-out hover:-translate-y-[1px] hover:text-accent hover:underline hover:underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-accent/60"
+                        href={item.href}
+                        className="inline-flex items-center gap-3.5 rounded-md px-1 py-1 text-left transition duration-200 ease-out hover:-translate-y-[1px] hover:text-accent hover:underline hover:underline-offset-4 hover:font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-accent/60"
                       >
                         <span className="h-1.5 w-1.5 rounded-full bg-accent/70"></span>
-                        <span>{t(`${section.key}.${linkKey}`)}</span>
+                        <span>{t(item.labelKey)}</span>
                       </Link>
                     </li>
                   ))}

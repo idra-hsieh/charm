@@ -1,21 +1,21 @@
 {
   "learn": {
     "title": "学ぶ",
-    "cmi_framework": "CMI フレームワーク",
+    "cmi_framework": "CMIフレームワーク",
     "money_identities": "マネータイプ",
-    "articles_guides": "記事 & ガイド"
+    "articles_guides": "読みもの"
   },
   "tools": {
     "title": "ツール",
-    "charm_indicator": "Charm インジケーター",
-    "daily_companion": "毎日のコンパニオン",
-    "reflection_prompts": "振り返りプロンプト"
+    "charm_indicator": "Charm診断",
+    "daily_companion": "デイリーガイド",
+    "reflection_prompts": "振り返りのヒント"
   },
   "support": {
     "title": "サポート",
     "contact": "お問い合わせ",
     "faq": "よくある質問",
-    "tutorial": "チュートリアル"
+    "tutorial": "使い方ガイド"
   },
   "company": {
     "title": "会社情報",
@@ -25,7 +25,7 @@
   },
   "meta": {
     "copyright": "©2025 Charm.",
-    "tagline": "明快さと、思いやりを込めて"
+    "tagline": "明快で、心に寄り添うデザイン。"
   },
   "socials": {
     "instagram": "Instagram",
