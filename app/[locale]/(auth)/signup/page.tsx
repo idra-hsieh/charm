@@ -24,7 +24,7 @@ function SignupPlaceholder() {
       {/* Back button */}
       <button
         onClick={() => router.back()}
-        className="absolute top-10 left-10 lg:top-15 lg:left-15 z-20 text-white/80 hover:text-accent transition-colors duration-150 font-semibold text-3xl lg:text-4xl"
+        className="absolute top-10 left-10 lg:top-15 lg:left-15 z-20 text-white/80 hover:text-accent hover:-translate-y-[1px] active:text-accent active:-translate-y-[1px] transition-colors duration-150 font-semibold text-3xl lg:text-4xl"
         aria-label="Go back"
       >
         ←
