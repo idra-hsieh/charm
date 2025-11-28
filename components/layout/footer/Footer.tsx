@@ -36,10 +36,10 @@ function Footer() {
   const socialItems = socialSection?.items ?? [];
 
   return (
-    <footer className="bg-marble bg-cover bg-center pt-12 rounded-t-3xl">
-      <div className="mx-auto max-w-[1200px] md:max-w-[1512px] px-4 sm:px-6">
+    <footer className="bg-marble bg-cover bg-center pt-8 rounded-t-3xl">
+      <div className="mx-auto max-w-[1200px] md:max-w-[1512px]lg:px-15 px-8">
         {/* White box */}
-        <div className="overflow-hidden rounded-t-xl border border-black/5 bg-white/80 shadow-[0_20px_120px_rgba(0,0,0,0.15)] backdrop-blur">
+        <div className="overflow-hidden rounded-t-xl border border-foreground/5 bg-white/80 shadow-[0_40px_120px_rgba(0,0,0,0.3)] backdrop-blur">
           {/* Footer Navigation */}
           <div className="grid grid-cols-2 gap-y-8 gap-x-10 px-6 py-10 md:grid-cols-4 md:px-10 lg:px-14">
             {navSections.map((section) => (
@@ -75,7 +75,7 @@ function Footer() {
                 <span className="font-semibold text-primary">
                   {t("meta.copyright")}
                 </span>{" "}
-                <span className="block md:inline md:ml-1">
+                <span className="block md:inline mt-0.5">
                   {t("meta.tagline")}
                 </span>
               </p>
