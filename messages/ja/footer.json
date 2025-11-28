@@ -1,13 +1,13 @@
 {
   "learn": {
     "title": "学ぶ",
-    "cmi_framework": "CMIフレームワーク",
+    "cmi_framework": "CMI フレームワーク",
     "money_identities": "マネータイプ",
     "articles_guides": "読みもの"
   },
   "tools": {
     "title": "ツール",
-    "charm_indicator": "Charm診断",
+    "charm_indicator": "Charm 診断",
     "daily_companion": "デイリーガイド",
     "reflection_prompts": "振り返りのヒント"
   },

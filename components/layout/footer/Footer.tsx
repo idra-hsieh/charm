@@ -55,7 +55,7 @@ function Footer() {
                     <li key={item.labelKey}>
                       <Link
                         href={item.href}
-                        className="inline-flex items-center gap-3.5 rounded-md px-1 py-1 text-left transition duration-200 ease-out hover:-translate-y-[1px] hover:text-accent hover:underline hover:underline-offset-4 hover:font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-accent/60"
+                        className="inline-flex items-center gap-3.5 rounded-md px-1 py-1 text-left transition duration-200 ease-out hover:-translate-y-[1px] active:-translate-y-[1px] hover:text-accent active:text-accent hover:underline active:underline hover:underline-offset-4 active:underline-offset-4 hover:font-semibold active:font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-accent/60"
                       >
                         <span className="h-1.5 w-1.5 rounded-full bg-accent/70"></span>
                         <span>{t(item.labelKey)}</span>
@@ -68,7 +68,7 @@ function Footer() {
           </div>
 
           {/* Copyroght & Tagline & Socials */}
-          <div className="border-t border-black/10 bg-gradient-to-r from-white/70 via-white/60 to-white/70 px-6 py-5 dark:border-white/10 dark:from-white/5 dark:via-white/5 dark:to-white/5 md:px-10 lg:px-14">
+          <div className="border-t border-black/10 bg-gradient-to-r from-white/70 via-white/60 to-white/70 px-10 sm:px-18 lg:px-14 py-5 dark:border-white/10 dark:from-white/5 dark:via-white/5 dark:to-white/5 md:px-10">
             <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
               {/* Copyroght & Tagline */}
               <p className="text-sm text-primary/70">
@@ -95,7 +95,7 @@ function Footer() {
                       <Link
                         href={item.href}
                         aria-label={label}
-                        className="flex h-10 w-10 items-center justify-center rounded-full border border-transparent bg-primary/5 text-primary/70 transition duration-200 ease-out hover:-translate-y-[2px] hover:border-accent/60 hover:bg-accent/10 hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-accent/60"
+                        className="flex h-10 w-10 items-center justify-center rounded-full border border-transparent bg-primary/5 text-primary/70 transition duration-200 ease-out hover:-translate-y-[2px] active:-translate-y-[2px] hover:border-accent/60 active:border-accent/60 hover:bg-accent/10 active:bg-accent/10 hover:text-primary active:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-accent/60"
                         title={label}
                       >
                         <Icon className="h-5 w-5" strokeWidth={1.75} />
