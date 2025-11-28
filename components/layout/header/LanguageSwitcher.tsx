@@ -77,7 +77,7 @@ function LanguageSwitcher({ className }: LanguageSwitcherProps) {
             "bg-accent/2 px-3 py-1.5 text-xs font-semibold uppercase",
             "shadow-sm backdrop-blur-md transition-all duration-150",
             "hover:border-foreground/10 hover:shadow-md hover:-translate-y-[1.5px]",
-            "active:translate-y-0 active:shadow-sm",
+            "active:border-foreground/10 active:shadow-md active:-translate-y-[1.5px]",
             className
           )}
         >

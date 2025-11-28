@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
 
@@ -12,7 +13,7 @@ function Placeholder() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url("/images/placeholder.png")`,
+          backgroundImage: `url("/images/login-placeholder.png")`,
           backgroundSize: "contain",
           backgroundColor: "black",
         }}

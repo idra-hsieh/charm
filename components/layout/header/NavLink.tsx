@@ -63,7 +63,7 @@ function NavLink({
 
   const inactiveClasses =
     variant === "mobile"
-      ? "block w-full rounded-full px-4 py-2 bg-background/70 hover:border-accent/70 hover:bg-accent/5 hover:shadow-md hover:-translate-y-[1.5px] text-foreground/85 border border-foreground/10 hover:border-accent/60 hover:bg-accent/5 hover:text-accent transition-all duration-200"
+      ? "block w-full rounded-full px-4 py-2 bg-background/70 text-foreground/85 border border-foreground/10 transition-all duration-200 hover:-translate-y-[1.5px] hover:bg-accent/5 hover:border-accent/60 hover:text-accent hover:shadow-md active:scale-[0.97] active:bg-accent/10 active:border-accent/60 active:text-accent"
       : "text-foreground/80 hover:bg-accent hover:text-white hover:rounded-full hover:px-4 hover:py-1.5 hover:shadow-md transition-all duration-200";
 
   // external links: <a> + new tab
