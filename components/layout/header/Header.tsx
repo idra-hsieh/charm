@@ -7,7 +7,7 @@ import UtilityNav from "./UtilityNav";
 
 function Header() {
   return (
-    <header className="w-full h-[88px] sticky top-0 z-40 x-40 bg-marble bg-[#050505] bg-center rounded-b-xl overflow-hidden">
+    <header className="w-full h-[88px] sticky top-0 z-40 x-40 bg-marble bg-[#050505] bg-center rounded-b-3xl overflow-hidden">
       <div className="max-w-[1200px] md:max-w-[1512px] mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
         {/* Left: Logo + Desktop Nav */}
         <div className="flex items-center gap-6 translate-y-[-4px]">

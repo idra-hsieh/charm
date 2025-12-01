@@ -37,7 +37,7 @@ function Footer() {
 
   return (
     <footer className="bg-[#40403F]">
-      <div className="bg-marble bg-center pt-8 rounded-t-xl">
+      <div className="bg-marble bg-center pt-8 rounded-t-3xl">
         <div className="mx-auto max-w-[1200px] md:max-w-[1512px] lg:px-15 px-8">
         {/* White box */}
         <div className="overflow-hidden rounded-t-xl border border-foreground/5 bg-white/80 shadow-[0_40px_120px_rgba(0,0,0,0.3)] backdrop-blur">
