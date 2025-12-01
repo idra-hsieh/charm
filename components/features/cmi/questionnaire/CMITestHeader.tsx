@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import ProgressBar from "./ProgressBar"
+import ProgressBar from "./ProgressBar";
 
 type Props = {
     current: number;
