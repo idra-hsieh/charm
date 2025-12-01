@@ -1,0 +1,15 @@
+{
+  "header_title": "Free Money Identity Test",
+  "header_desc_1": "Charm Money Indicator®",
+  "header_desc_2": "helps you understand your relationship with money and create a plan to improve it.",
+  "step": "Page {current} of {total}",
+  "prev_page": "Previous Page",
+  "next_page": "Next Page",
+  "agree": "Agree",
+  "disagree": "Disagree",
+  "warning_incomplete": "Please answer all questions before continuing.",
+  "email_title": "One last thing...",
+  "email_desc": "Enter your email to calculate your unique Money Identity.",
+  "email_placeholder": "you@example.com",
+  "reveal_results": "Reveal My Results"
+}

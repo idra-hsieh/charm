@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 type ProgressBarProps = {
   current: number; // current page
@@ -7,6 +8,8 @@ type ProgressBarProps = {
 }
 
 function ProgressBar({ current, total, onPrevious }: ProgressBarProps) {
+  const t = useTranslations("cmi.ui");
+  
   const progress = (current / total) * 100;
 
   return (
@@ -18,7 +21,7 @@ function ProgressBar({ current, total, onPrevious }: ProgressBarProps) {
         className="flex w-[110px] items-center justify-center gap-1 text-xs text-foreground/60 disabled:text-transparent hover:text-accent hover:font-semibold"
       >
         <span className="text-xs">←</span>
-        <span>Previous Page</span>
+        <span>{t('prev_page')}</span>
       </button>
 
       {/* Progress Bar Core */}
@@ -33,7 +36,7 @@ function ProgressBar({ current, total, onPrevious }: ProgressBarProps) {
 
       {/* Step Text */}
       <span className="w-[110px] text-left text-xs text-foreground/80 whitespace-nowrap font-semibold px-2">
-        Step {current} of {total}
+        {t('step', { current, total })}
       </span>
     </div>
   )

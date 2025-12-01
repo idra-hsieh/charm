@@ -3,9 +3,10 @@
 import React, { useRef, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 interface Props {
-  question: { id: string; text: string };
+  question: { id: string }; 
   index: number;
   isFocused: boolean;
   selectedValue?: number;
@@ -16,6 +17,9 @@ interface Props {
 function CMIQuestionCard({ 
   question, index, isFocused, selectedValue, onSelect, onFocus 
 }: Props) {
+  const tQuestions = useTranslations("cmi.questions");
+  const tUi = useTranslations("cmi.ui");
+    
   const ref = useRef<HTMLDivElement>(null);
 
   // Auto-scroll when focused
@@ -47,7 +51,7 @@ function CMIQuestionCard({
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
         <h3 className="text-foreground/80 font-secondary font-semibold text-sm font-light leading-snug flex-1 tracking-wide">
           {index}. {" "}
-          {question.text}
+          {tQuestions(question.id)}
         </h3>
 
         {/* Likert Scale */}
@@ -60,7 +64,7 @@ function CMIQuestionCard({
               disagreeActive && "text-accent font-semibold"
             )}
         >
-            Disagree
+            {tUi('disagree')}
         </span>
           
           <div className="flex gap-4 justify-center items-center">
@@ -101,7 +105,7 @@ function CMIQuestionCard({
               agreeActive && "text-accent font-semibold"
             )}
           >
-            Agree
+            {tUi('agree')}
           </span>
         </div>
       </div>

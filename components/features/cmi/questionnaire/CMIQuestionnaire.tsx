@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import CMIQuestionCard from "./CMIQuestionCard";
 import { cn } from "@/lib/utils";
+import { useTranslations } from "next-intl";
 
 interface Props {
   onComplete: (answers: Record<string, number>, email: string) => void;
@@ -26,6 +27,8 @@ function shuffleArray<T>(array: T[]): T[] {
 }
 
 export default function CMIQuestionnaire({ onComplete, onProgressChange }: Props) {
+  const t = useTranslations("cmi.ui");
+  
   // State
   const [questions] = useState(() => shuffleArray(QUESTIONS));
   
@@ -159,7 +162,7 @@ export default function CMIQuestionnaire({ onComplete, onProgressChange }: Props
                   "opacity-50 cursor-not-allowed hover:translate-y-0 hover:shadow-[0_6px_16px_rgba(187,147,100,0.28)]"
               )}
             >
-              Next Page →
+              {t("next_page")} →
             </Button>
 
             {showIncompleteWarning && (
@@ -168,7 +171,7 @@ export default function CMIQuestionnaire({ onComplete, onProgressChange }: Props
                 animate={{ opacity: 1, y: 0 }}
                 className="absolute top-full mt-6 text-xs text-background/75 tracking-wide whitespace-nowrap"
               >
-                Please answer all questions before continuing.
+                {t("warning_incomplete")}
               </motion.p>
             )}
           </div>
@@ -180,17 +183,17 @@ export default function CMIQuestionnaire({ onComplete, onProgressChange }: Props
           >
             <div className="space-y-2 text-center md:text-left">
               <Label htmlFor="email" className="text-xl font-primary text-white">
-                One last thing...
+                {t("email_title")}
               </Label>
               <p className="text-sm text-white/50">
-                Enter your email to calculate your unique Money Identity.
+                {t("email_desc")}
               </p>
             </div>
             
             <Input 
               id="email" 
               type="email" 
-              placeholder="you@example.com" 
+              placeholder={t("email_placeholder")}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="bg-black/50 border-white/20 text-white h-12 text-lg"
@@ -201,7 +204,7 @@ export default function CMIQuestionnaire({ onComplete, onProgressChange }: Props
               disabled={!canFinish}
               className="w-full h-14 rounded-full text-lg bg-accent text-white hover:bg-accent/90 shadow-lg shadow-accent/20 font-semibold"
             >
-              Reveal My Results
+              {t("reveal_results")}
             </Button>
           </motion.div>
         )}

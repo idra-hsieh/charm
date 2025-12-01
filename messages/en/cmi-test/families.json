@@ -1,0 +1,58 @@
+{
+  "000": {
+    "name": "The Reflectors",
+    "essence": "Calm, detached, imaginative — avoids pressure by stepping back.",
+    "tension": "Disconnection from action.",
+    "growthDirection": "Move toward gentle engagement.",
+    "strategy": "Step In Slowly"
+  },
+  "001": {
+    "name": "The Idealists",
+    "essence": "Generous, expressive, or moralistic — projects ideals onto money.",
+    "tension": "Wants to do “good,” but drifts from reality.",
+    "growthDirection": "Ground vision with small, real steps.",
+    "strategy": "Ground the Vision"
+  },
+  "010": {
+    "name": "The Organizers",
+    "essence": "Precise, structured, safety-focused — finds comfort in control.",
+    "tension": "Over-manages, fears chaos.",
+    "growthDirection": "Learn flexibility and trust.",
+    "strategy": "Trust the Flow"
+  },
+  "011": {
+    "name": "The Evaluators",
+    "essence": "Orderly and opinionated — defines worth through discipline or correctness.",
+    "tension": "Judgmental, inflexible.",
+    "growthDirection": "Replace judgment with curiosity.",
+    "strategy": "Ask Before Judging"
+  },
+  "100": {
+    "name": "The Empaths",
+    "essence": "Warm, receptive, connection-driven — finds identity in giving or belonging.",
+    "tension": "Self-worth tied to others’ approval.",
+    "growthDirection": "Anchor security in self-trust.",
+    "strategy": "Center Your Generosity"
+  },
+  "101": {
+    "name": "The Performers",
+    "essence": "Charismatic, expressive, status-aware — seeks validation through success or lifestyle.",
+    "tension": "Image over authenticity.",
+    "growthDirection": "Express creativity without comparison.",
+    "strategy": "Shine Without Stage"
+  },
+  "110": {
+    "name": "The Guardians",
+    "essence": "Responsible, protective, loyal — feels safest when providing or managing.",
+    "tension": "Overextends, carries too much.",
+    "growthDirection": "Share control; trust others’ competence.",
+    "strategy": "Release the Weight"
+  },
+  "111": {
+    "name": "The Builders",
+    "essence": "Visionary, driven, innovative — sees money as creation energy.",
+    "tension": "Overwork and identity fusion with achievement.",
+    "growthDirection": "Redefine mastery as harmony and meaning.",
+    "strategy": "Redefine Success"
+  }
+}
