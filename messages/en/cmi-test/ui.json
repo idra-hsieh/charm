@@ -8,8 +8,10 @@
   "agree": "Agree",
   "disagree": "Disagree",
   "warning_incomplete": "Please answer all questions before continuing.",
-  "email_title": "One last thing...",
-  "email_desc": "Enter your email to calculate your unique Money Identity.",
-  "email_placeholder": "you@example.com",
-  "reveal_results": "Reveal My Results"
+  "email_title": "Get Your Results",
+  "email_desc": "Enter your email to reveal your detailed analysis. We’ll also send an access code to your inbox so you can review your results anytime.",
+  "email_placeholder": "name@example.com",
+  "reveal_results": "See My Results",
+  "marketing_consent": "Receive updates and news from Charm (unsubscribe anytime).",
+  "warning_email": "Please enter your email before continuing."
 }
