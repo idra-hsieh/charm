@@ -43,28 +43,24 @@ const optima = localFont({
 // TO-DO: update formal url
 const BASE_URL = "https://charm-money.vercel.app";
 
-export async function generateMetadata({
-  params: { locale },
-}: {
-  params: { locale: string };
-}): Promise<Metadata> {
-  // Read "default" in messages/en/metadata.json
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+
   const t = await getTranslations({ locale, namespace: "Metadata.default" });
 
-  // Decide canonical URL based on language (e.g. /en or /ja)
   const currentUrl = locale === "en" ? BASE_URL : `${BASE_URL}/${locale}`;
 
   return {
-
     title: {
       default: t("title"),
       template: t("title_template"),
     },
-
     description: t("description"),
-    
     keywords: t("keywords").split(",").map((k) => k.trim()),
-
     openGraph: {
       title: {
         default: t("title"),
@@ -89,14 +85,16 @@ export async function generateMetadata({
 
 type RootLayoutProps = {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-async function RootLayout({ children, params: { locale } }: RootLayoutProps) {
+async function RootLayout({ children, params }: RootLayoutProps) {
+  const { locale } = await params;
+
   setRequestLocale(locale);
   const messages = await getMessages();
 
