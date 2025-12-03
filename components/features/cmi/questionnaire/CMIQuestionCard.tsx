@@ -60,7 +60,7 @@ function CMIQuestionCard({
           {/* DISAGREE label */}
         <span
             className={cn(
-              "text-accent/90 text-[11px] uppercase tracking-[0.16em] transition-all duration-200",
+              "text-accent/90 text-[11px] uppercase tracking-[0.16em] transition-all duration-200 w-[4.5rem] text-right",
               disagreeActive && "text-accent font-semibold"
             )}
         >
@@ -101,7 +101,7 @@ function CMIQuestionCard({
           {/* AGREE label */}
           <span
             className={cn(
-              "text-accent/90 text-[11px] uppercase tracking-[0.16em] transition-all duration-200",
+              "text-accent/90 text-[11px] uppercase tracking-[0.16em] transition-all duration-200 w-[2.5rem] text-left",
               agreeActive && "text-accent font-semibold"
             )}
           >
