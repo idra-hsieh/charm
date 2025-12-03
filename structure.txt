@@ -67,6 +67,13 @@
 |  |  |        ├── PageClient.tsx
 |  |  |        └── page.tsx
 |  |  └── layout.tsx
+|  ├── api
+|  |  └── cmi-test
+|  |     ├── result
+|  |     |  └── [code]
+|  |     |     └── route.ts
+|  |     └── submit
+|  |        └── route.ts
 |  ├── favicon.ico
 |  ├── fonts
 |  |  └── Optima
@@ -120,11 +127,14 @@
 |  └── routing.ts
 ├── lib
 |  ├── cmi
+|  |  ├── api-types.ts
 |  |  ├── content.ts
 |  |  ├── data.ts
+|  |  ├── generate-code.ts
 |  |  ├── scoring.ts
 |  |  └── types.ts
 |  ├── navigation.ts
+|  ├── supabase.ts
 |  └── utils.ts
 ├── messages
 |  ├── en
@@ -137,7 +147,17 @@
 |  |  ├── header.json
 |  |  ├── metadata.json
 |  |  └── placeholder.json
-|  └── ja
+|  ├── ja
+|  |  ├── cmi-test
+|  |  |  ├── families.json
+|  |  |  ├── questions.json
+|  |  |  ├── types.json
+|  |  |  └── ui.json
+|  |  ├── footer.json
+|  |  ├── header.json
+|  |  ├── metadata.json
+|  |  └── placeholder.json
+|  └── zh
 |     ├── cmi-test
 |     |  ├── families.json
 |     |  ├── questions.json
@@ -181,9 +201,9 @@
 ├── structure.txt
 └── tsconfig.json
 
-directory: 2590 file: 26277
+directory: 2681 file: 27113
 
-ignored: directory (32)
+ignored: directory (33)
 
 
 [2K[1G
