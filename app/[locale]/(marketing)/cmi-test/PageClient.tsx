@@ -4,6 +4,17 @@ import CMIQuestionnaire from "@/components/features/cmi/questionnaire/CMIQuestio
 import CMITestHeader from "@/components/features/cmi/questionnaire/CMITestHeader";
 import { useState, useCallback } from "react";
 
+import type { Answers } from "@/lib/cmi/scoring";
+import type { TraitScoresByTrait, getResult } from "@/lib/cmi/content";
+
+type CompletionData = {
+  answers: Answers;
+  traitScores: TraitScoresByTrait;
+  result: ReturnType<typeof getResult>;
+  email: string;
+  subscribe: boolean;
+};
+
 function CMITestPage() {
   const [isFinished, setIsFinished] = useState(false);
   const [answers, setAnswers] = useState<Record<string, number>>({});
@@ -14,9 +25,11 @@ function CMITestPage() {
     onPrevious: () => {},
   });
   
-  const handleFinish = (finalAnswers: Record<string, number>, email: string) => {
+  const handleFinish = (data: CompletionData) => {
+    const { answers: finalAnswers, email } = data; // Destructure the relevant parts
+
     setAnswers(finalAnswers);
-    // TO-DO: Send email to backend API
+    // TO-DO: Send email to backend API (now with the correctly extracted 'email')
     setIsFinished(true);
     // Scroll to top
     window.scrollTo({ top: 0, behavior: "smooth" });
