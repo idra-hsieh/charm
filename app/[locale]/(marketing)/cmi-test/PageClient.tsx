@@ -6,9 +6,9 @@ import { useState, useCallback } from "react";
 
 import type { Answers } from "@/lib/cmi/scoring";
 import type { TraitScoresByTrait, getResult } from "@/lib/cmi/content";
-import { useRouter } from "next/router";
 import { useLocale } from "next-intl";
 import { CMISubmitPayload } from "@/lib/cmi/api-types";
+import { useRouter } from "next/navigation";
 
 type CompletionData = {
   answers: Answers;
