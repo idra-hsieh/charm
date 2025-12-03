@@ -1,0 +1,38 @@
+{
+  "learn": {
+    "title": "學習探索",
+    "cmi_framework": "CMI 框架 (CMI Framework)",
+    "money_identities": "財務身份 (Money Identities)",
+    "articles_guides": "文章與指南"
+  },
+  "tools": {
+    "title": "工具應用",
+    "charm_indicator": "Charm 指標",
+    "daily_companion": "日常夥伴 (Daily Companion)",
+    "reflection_prompts": "反思提示"
+  },
+  "support": {
+    "title": "支援服務",
+    "contact": "聯絡我們",
+    "faq": "常見問題",
+    "tutorial": "使用教學"
+  },
+  "company": {
+    "title": "關於我們",
+    "terms": "條款與條件",
+    "privacy": "隱私權政策",
+    "accessibility": "無障礙聲明"
+  },
+  "meta": {
+    "copyright": "©2025 Charm.",
+    "tagline": "以清晰和同理心設計。"
+  },
+  "socials": {
+    "title": "社群媒體",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn",
+    "x": "X (原 Twitter)",
+    "youtube": "YouTube"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "header_title": "免費財務人格測試",
+  "header_desc_1": "Charm 財務指標® (Charm Money Indicator®)",
+  "header_desc_2": "幫助您了解自己與金錢的關係，並創建一個改進的計劃。",
+  "step": "第 {current} / {total} 頁",
+  "prev_page": "上一頁",
+  "next_page": "下一頁",
+  "agree": "同意",
+  "disagree": "不同意",
+  "warning_incomplete": "請回答所有問題後再繼續。",
+  "email_title": "取得您的結果",
+  "email_desc": "輸入您的電子郵件以查看詳細分析。我們也會發送一組存取碼到您的收件箱，讓您可以隨時回顧您的結果。",
+  "email_placeholder": "name@example.com",
+  "reveal_results": "查看我的結果",
+  "marketing_consent": "接收來自 Charm 的更新和消息（可隨時取消訂閱）。",
+  "warning_email": "請提供有效的電子郵件並接受訂閱以繼續。"
+}

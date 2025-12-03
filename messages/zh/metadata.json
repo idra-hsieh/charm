@@ -1,0 +1,105 @@
+{
+  "default": {
+    "title": "Charm",
+    "title_template": "%s | Charm",
+    "description": "Discover your financial personality with the Charm Money Indicator®. Charm is a financial educational system offering personalized tracking and advice to align your money with your life philosophy.",
+    "keywords": "Financial Personality Test, Charm Money Indicator, CMI-I, Financial Tracking, Money Psychology, Financial Advice, Life Philosophy",
+    "open_graph": {
+      "site_name": "Charm",
+      "locale": "en_US"
+    }
+  },
+  
+  "app": {
+    "dashboard": {
+      "title": "Dashboard",
+      "description": "View your financial overview, recent activities, and progress towards your goals."
+    }
+  },
+
+  "auth": {
+    "login": {
+      "title": "Log In",
+      "description": "Log in to your Charm account to access your financial insights."
+    },
+    "signup": {
+      "title": "Sign Up",
+      "description": "Create a new Charm account and start your journey to financial clarity."
+    }
+  },
+
+  "marketing": {
+    "home": {
+      "title": "Charm | Where your money and life philosophy align.",
+      "description": "The best app to understand your relationship with money through psychology and data."
+    },
+    "about": {
+      "title": "The Charm App",
+      "description": "Learn about the philosophy and team behind Charm's mission to redefine financial wellness."
+    },
+    "money_identities": {
+      "title": "Money Identities",
+      "description": "Explore the different Money Identity archetypes and understand their strengths and challenges."
+    },
+    "placeholder": {
+      "title": "Coming Soon",
+      "description": "This feature is currently under development."
+    },
+    
+    "legal": {
+      "accessibility": {
+        "title": "Accessibility Statement",
+        "description": "Our commitment to making Charm accessible to everyone."
+      },
+      "privacy": {
+        "title": "Privacy Policy",
+        "description": "How we collect, use, and protect your personal data."
+      },
+      "terms": {
+        "title": "Terms and Conditions",
+        "description": "The rules and regulations for using Charm."
+      }
+    },
+    
+    "support": {
+      "contact": {
+        "title": "Contact Us",
+        "description": "Get in touch with the Charm support team for help or inquiries."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "description": "Answers to common questions about the CMI test, account management, and billing."
+      },
+      "tutorial": {
+        "title": "Tutorials",
+        "description": "Step-by-step guides to help you use Charm effectively."
+      }
+    },
+
+    "resources": {
+      "index": {
+        "title": "Resources",
+        "description": "Curated guides, articles, and tools for your financial growth."
+      },
+      "cmi_framework": {
+        "title": "CMI Framework",
+        "description": "Deep dive into the core framework of Money Identities and how it works."
+      },
+      "prompts": {
+        "title": "Journaling Prompts",
+        "description": "Reflective prompts designed to improve your financial mindset and habits."
+      }
+    },
+
+    "cmi_test": {
+      "index": {
+        "title": "Money Identity Test",
+        "description": "Discover your core Money Identity in just 5 minutes with our CMI-I assessment."
+      },
+      "result": {
+        "title": "Your Test Results",
+        "description": "Detailed analysis of your Money Identity, strengths, and personalized advice."
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "main": {
+    "money_identity_test": "財務人格測試",
+    "money_identities": "財務人格",
+    "resources": "資源",
+    "charm_app": "Charm 應用程式"
+  },
+  "utility": {
+    "login": "登入",
+    "signup": "免費試用 Charm"
+  }
+}

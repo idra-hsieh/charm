@@ -2,7 +2,7 @@
 import { cookies } from "next/headers";
 import { getRequestConfig } from "next-intl/server";
 
-const SUPPORTED_LOCALES = ["en", "ja"] as const;
+const SUPPORTED_LOCALES = ["en", "zh", "ja"] as const;
 type Locale = (typeof SUPPORTED_LOCALES)[number];
 
 async function resolveLocale(): Promise<Locale> {

@@ -16,8 +16,11 @@ import { useTransition } from "react";
 
 const LANGUAGES = [
   { code: "en", flag: "🇺🇸", label: "English" },
+  { code: "zh", flag: "🇹🇼", label: "繁體中文" },
   { code: "ja", flag: "🇯🇵", label: "日本語" },
 ];
+
+const LOCALE_CODES = LANGUAGES.map(({ code }) => code);
 
 type LanguageSwitcherProps = {
   className?: string;
@@ -57,7 +60,7 @@ function LanguageSwitcher({ className }: LanguageSwitcherProps) {
       return `/${nextLocale}`;
     }
 
-    if (segments[0] === "en" || segments[0] === "ja") {
+    if (LOCALE_CODES.includes(segments[0])) {
       segments[0] = nextLocale;
       return `/${segments.join("/")}`;
     }
