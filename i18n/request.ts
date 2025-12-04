@@ -31,6 +31,7 @@ export default getRequestConfig(async () => {
     questions: (await import(`../messages/${locale}/cmi-test/questions.json`)).default,
     families: (await import(`../messages/${locale}/cmi-test/families.json`)).default,
     types: (await import(`../messages/${locale}/cmi-test/types.json`)).default,
+    traits: (await import(`../messages/${locale}/cmi-test/traits.json`)).default,
   };
 
   return {

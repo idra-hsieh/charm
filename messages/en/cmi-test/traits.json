@@ -1,0 +1,50 @@
+{
+  "columns": {
+    "trait": "Trait",
+    "axis": "Psychological Axis",
+    "low": "Low End (–1)",
+    "mid": "Healthy Middle (0)",
+    "high": "High End (+1)",
+    "signature": "Behavioral Signature"
+  },
+  "closeness": {
+    "traitLabel": "Closeness",
+    "axis": "Emotional Relationship to Money",
+    "low": "Avoidant — distances from finances; avoids checking balances or engaging with details.",
+    "mid": "Balanced— can face money calmly and realistically without emotional swings.",
+    "high": "Anxious — monitors constantly; heightened vigilance or worry around spending and savings.",
+    "signature": "Measures emotional comfort and engagement with financial reality."
+  },
+  "control": {
+    "traitLabel": "Control",
+    "axis": "Sense of Agency and Flexibility",
+    "low": "Helpless — feels acted upon by circumstances; lacks perceived control over money.",
+    "mid": "Adaptive — takes deliberate action while allowing flexibility when needed.",
+    "high": "Vigilant — over-monitors, tightly controls finances, struggles to relax rules even when appropriate.",
+    "signature": "Gauges how one balances initiative and adaptability in money management."
+  },
+  "selfWorth": {
+    "traitLabel": "Self-Worth",
+    "axis": "Relationship Between Identity and Finances",
+    "low": "Insecure — sees finances as proof of inadequacy; shame or comparison-driven.",
+    "mid": "Grounded — values self-worth beyond status; open to growth without defensiveness.",
+    "high": "Prideful — links achievement to superiority; resistant to vulnerability or feedback.",
+    "signature": "Reflects whether money reinforces or expresses a healthy sense of self."
+  },
+  "boundary": {
+    "traitLabel": "Boundary",
+    "axis": "Interpersonal Resource Balance",
+    "low": "Compliant — gives or spends to maintain harmony; difficulty asserting limits.",
+    "mid": "Clear — gives and receives with clarity; generosity and protection coexist.",
+    "high": "Guarded — highly protective of resources; cautious or resistant to shared spending.",
+    "signature": "Captures how one balances generosity, reciprocity, and personal security."
+  },
+  "growth": {
+    "traitLabel": "Growth",
+    "axis": "Approach to Learning and Change",
+    "low": "Settled — avoids financial experimentation; prefers comfort over improvement.",
+    "mid": "Reflective — learns through reflection and small, steady adjustments.",
+    "high": "Driven — seeks constant optimization; restless pursuit of “better” without pause.",
+    "signature": "Indicates openness to learning and capacity for sustained improvement."
+  }
+}
