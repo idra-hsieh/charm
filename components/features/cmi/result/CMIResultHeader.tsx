@@ -65,7 +65,12 @@ function CMIResultHeader({ resultData }: Props) {
   };
 
   return (
-    <section className="relative w-full overflow-hidden rounded-b-3xl shadow-2xl bg-background text-foreground h-[450px]">
+    <section className={cn(
+      "relative w-full overflow-hidden rounded-b-3xl shadow-2xl",
+      "bg-background text-foreground",
+      "min-h-[520px] sm:min-h-[540px]",
+      "md:h-[450px]"
+    )}>
       {/* Background */}
       <div className="absolute inset-0 bg-marble bg-cover bg-center z-0" />
 
@@ -114,7 +119,7 @@ function CMIResultHeader({ resultData }: Props) {
 
         {/* Dots + CTA */}
         <TooltipProvider>
-          <div className="flex flex-col items-center gap-4 text-center">
+          <div className="flex flex-col items-center gap-4 text-center mt-7 md:mt-0">
             {/* Button row */}
             <div className="relative flex justify-center">
               <Button
