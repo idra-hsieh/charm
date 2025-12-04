@@ -105,12 +105,12 @@ function CMIResultHeader({ resultData }: Props) {
                   key={currentSlide}
                   initial={{
                     opacity: 0,
-                    x: currentSlide === "type" ? 20 : -20,
+                    x: currentSlide === "type" ? -20 : 20,
                   }}
                   animate={{ opacity: 1, x: 0 }}
                   exit={{
                     opacity: 0,
-                    x: currentSlide === "type" ? -20 : 20,
+                    x: currentSlide === "type" ? 20 : -20,
                   }}
                   transition={{ duration: 0.4, ease: "easeOut" }}
                   className="w-full px-4 sm:px-6"
