@@ -29,5 +29,7 @@
 
   "result_body_item1": "1. 性格洞察",
   "result_body_item2": "2. 成長方向",
-  "result_body_item3": "3. 下一步行動"
+  "result_body_item3": "3. 下一步行動",
+  "result_trait_title": "您的特質分數",
+  "result_trait_desc": "您的 {trait} 得分為 {score}。"
 }

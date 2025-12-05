@@ -29,5 +29,7 @@
 
   "result_body_item1": "1. タイプの特徴",
   "result_body_item2": "2. 成長の方向性",
-  "result_body_item3": "3. 次にすべきこと"
+  "result_body_item3": "3. 次にすべきこと",
+  "result_trait_title": "あなたの特性スコア",
+  "result_trait_desc": "{trait} のスコアは {score} となりました。"
 }

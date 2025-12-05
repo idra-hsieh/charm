@@ -1,11 +1,9 @@
 "use client";
 
 import CMIResultBody from "@/components/features/cmi/result/CMIResultBody";
-import CMIResultFooter from "@/components/features/cmi/result/CMIResultFooter";
 import CMIResultHeader from "@/components/features/cmi/result/CMIResultHeader";
 import CMITraitScores from "@/components/features/cmi/result/CMITraitScores";
 import { StoredCMIResult } from "@/lib/cmi/api-types";
-import { useTranslations } from "next-intl";
 
 interface Props {
   resultData: StoredCMIResult;

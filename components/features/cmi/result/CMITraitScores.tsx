@@ -21,6 +21,8 @@ const TRAITS: Trait[] = ["closeness", "control", "selfWorth", "boundary", "growt
 
 export default function CMITraitScores({ traitScores }: Props) {
   const t = useTranslations("cmi.traits");
+  const tUi = useTranslations("cmi.ui");
+
   const [activeTrait, setActiveTrait] = useState<Trait>("closeness");
 
   const activeScore = traitScores[activeTrait];
@@ -70,7 +72,7 @@ export default function CMITraitScores({ traitScores }: Props) {
     <section className="w-full max-w-5xl mx-auto">
       <div className="flex flex-wrap justify-center gap-3 mb-7">
         <h1 className="font-primary text-background text-3xl font-semibold tracking-wider">
-          Your Trait Scores
+          {tUi("result_trait_title")}
         </h1>
       </div>
 
@@ -203,7 +205,10 @@ export default function CMITraitScores({ traitScores }: Props) {
               <div className="font-secondary">
                 {renderDescription(
                   `${activeTrait}.${textKey}Desc`, 
-                  `Scoring ${activePercent}% in ${traitName}, `
+                  tUi("result_trait_desc", {
+                    score: `${activePercent}%`,
+                    trait: traitName,
+                  })
                 )}
               </div>
             </div>

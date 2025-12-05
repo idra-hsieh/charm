@@ -29,5 +29,7 @@
   
   "result_body_item1": "1. Type Insights",
   "result_body_item2": "2. Growth Direction",
-  "result_body_item3": "3. What to Do Next"
+  "result_body_item3": "3. What to Do Next",
+  "result_trait_title": "Your Trait Score",
+  "result_trait_desc": "Scoring {score} in {trait}, "
 }
