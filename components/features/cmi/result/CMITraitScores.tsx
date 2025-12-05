@@ -95,12 +95,12 @@ export default function CMITraitScores({ traitScores }: Props) {
                   
                   // Colors & Transitions
                   "border-foreground/20 text-foreground/85",
-                  "hover:border-accent/70 hover:bg-marble hover:shadow-md hover:-translate-y-[1.5px] transition-all capitalize",
+                  "hover:border-accent/70 hover:bg-marble hover:shadow-md hover:-translate-y-[1.5px] transition capitalize",
                   
                   // Active State
                   isActive
                     ? "bg-marble border-primary text-foreground/80 shadow-md font-semibold"
-                    : "bg-background/10 border-accent/80 text-background hover:font-semibold hover:bg-background/15"
+                    : "bg-background/10 border-accent/80 text-background hover:font-medium hover:bg-background/15"
                 )}
               >
                 <span>{t(`${trait}.traitLabel`)}</span>
