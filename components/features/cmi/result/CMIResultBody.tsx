@@ -115,7 +115,6 @@ export default function CMIResultBody({ resultData }: Props) {
               {tUi("result_body_item1")}
             </h2>
             <div className="prose prose-stone max-w-none">
-              {/* UPDATED: Uses renderContent helper */}
               {renderContent("insights")}
             </div>
           </section>
@@ -126,7 +125,6 @@ export default function CMIResultBody({ resultData }: Props) {
               {tUi("result_body_item2")}
             </h2>
             <div className="prose prose-stone max-w-none">
-               {/* UPDATED: Uses renderContent helper */}
               {renderContent("directions")}
             </div>
           </section>
@@ -137,7 +135,6 @@ export default function CMIResultBody({ resultData }: Props) {
               {tUi("result_body_item3")}
             </h2>
             <div className="prose prose-stone max-w-none">
-               {/* UPDATED: Uses renderContent helper */}
               {renderContent("nextSteps")}
             </div>
           </section>

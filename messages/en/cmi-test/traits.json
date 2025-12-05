@@ -8,58 +8,118 @@
     "signature": "Behavioral Signature"
   },
   "closeness": {
-    "traitLabel": "Closeness",
+    "traitLabel": "closeness",
     "axis": "Emotional Relationship to Money",
     "low": "Avoidant",
-    "lowDesc": "Distances from finances; avoids checking balances or engaging with details.",
+    "lowDesc": [
+      "you likely experience a subconscious reflex to disengage from financial reality, treating money as a source of stress rather than a neutral resource. This avoidance acts as a defense mechanism; by not looking at the numbers, you attempt to preserve a temporary sense of peace, protecting yourself from the anxiety or shame that might arise from facing the truth.",
+      "This behavior often manifests as 'financial fog,' where you remain intentionally vague about your balances, debts, or spending habits. You may leave mail unopened or switch tabs quickly when banking notifications appear. This distance prevents you from making informed decisions, often leading to a cycle where the problems you ignore grow larger in the shadows.",
+      "Ultimately, this approach severs your connection to your own resources. By refusing to engage with the details, you inadvertently surrender your power, leaving you vulnerable to external shocks. The path forward involves gently titrating your exposure to financial data until the numbers lose their emotional charge."
+    ],
     "mid": "Balanced",
-    "midDesc": "Can face money calmly and realistically without emotional swings.",
+    "midDesc": [
+      "you approach financial data with emotional neutrality, viewing money as a tool to be managed rather than a reflection of your personal safety or worth. You are capable of looking at both surpluses and deficits without experiencing a physiological stress response, allowing you to make decisions based on logic rather than fear.",
+      "This healthy attachment means you are engaged but not obsessed. You check your accounts regularly enough to detect issues, but you do not dwell on them. You understand that financial health is a marathon, not a sprint, and you are able to weather the natural fluctuations of the economy or personal circumstances with a steady hand.",
+      "Your relationship with money is characterized by clarity and presence. Because you are not fighting an internal emotional battle every time you open a spreadsheet, you have the mental bandwidth to strategize for the future. You treat your finances with the same pragmatic care you might give to maintaining a home or a vehicle."
+    ],
     "high": "Anxious",
-    "highDesc": "Monitors constantly; heightened vigilance or worry around spending and savings.",
+    "highDesc": [
+      "you likely constantly scan your financial environment for threats, driven by a deep-seated belief that safety is fleeting and catastrophe is just around the corner. This hyper-vigilance keeps you intimately connected to your finances, but the connection is fueled by worry rather than empowerment.",
+      "This anxiety often drives you to check balances multiple times a day or obsess over small purchases, regardless of your actual wealth. You may find it difficult to enjoy the money you have earned because the act of spending feels like a depletion of your security buffer. Your mind struggles to distinguish between a minor expense and a major financial threat.",
+      "While this trait ensures you are rarely blindsided by financial surprises, the emotional cost is high. You live in a state of chronic low-grade stress, where money becomes a relentless taskmaster. True financial health for you requires learning to trust your own preparations and realizing that constant monitoring does not equal control."
+    ],
     "signature": "Measures emotional comfort and engagement with financial reality."
   },
   "control": {
-    "traitLabel": "Control",
+    "traitLabel": "control",
     "axis": "Sense of Agency and Flexibility",
     "low": "Helpless",
-    "lowDesc": "Feels acted upon by circumstances; lacks perceived control over money.",
+    "lowDesc": [
+      "you may perceive money as a chaotic, external force that happens *to* you, rather than something you can influence. This external locus of control often stems from past experiences of instability or a lack of financial modeling, leading to a belief that no matter what you do, the outcome is already written.",
+      "This mindset often results in passivity. Instead of creating a plan, you might wait for a windfall or hope that things simply work out. When financial difficulties arise, you may feel paralyzed or victimized, struggling to identify the actionable steps that could improve your situation.",
+      "The danger of this perspective is that it becomes a self-fulfilling prophecy. By believing you are powerless, you fail to exercise the power you actually have. Reclaiming your agency starts with recognizing that while you cannot control the market, you have absolute authority over your own reactions and habits."
+    ],
     "mid": "Adaptive",
-    "midDesc": "Takes deliberate action while allowing flexibility when needed.",
+    "midDesc": [
+      "you possess a strong sense of agency, understanding clearly the difference between what you can control (your savings rate, your spending) and what you cannot (market returns, inflation). This wisdom allows you to take deliberate, forceful action when necessary, while remaining calm in the face of systemic uncertainty.",
+      "Your approach is characterized by flexibility. You have a plan, but you are not imprisoned by it. If life throws a curveball, you are able to pivot your strategy without spiraling into panic or giving up entirely. You view budgets and goals as living documents that should evolve as your life changes.",
+      "This balance makes you resilient. You do not waste energy trying to micro-manage the uncontrollable, nor do you surrender to chaos. You walk the middle path of the 'pragmatic steward,' making the best possible moves with the information at hand and accepting the results with equanimity."
+    ],
     "high": "Vigilant",
-    "highDesc": "Over-monitors, tightly controls finances, struggles to relax rules even when appropriate.",
+    "highDesc": [
+      "you likely impose strict, perhaps rigid, rules on your financial life as a way to manage internal anxiety. You equate total control with safety, and any deviation from your plan—even a positive one—can feel like a threat to the order you have painstakingly created.",
+      "This rigidity often manifests as an inability to 'roll with the punches.' You may struggle to spend money on spontaneous joys or emergencies because they were not pre-allocated. You might view flexibility as a slippery slope toward failure, leading to a life that is financially optimized but experientially constricted.",
+      "While your finances are likely impeccable on paper, your intense need for control may limit your capacity for growth or happiness. You may miss out on opportunities that require calculated risk or fail to enjoy the fruits of your labor. Growth for you involves learning that flexibility is not a weakness, but a necessary component of resilience."
+    ],
     "signature": "Gauges how one balances initiative and adaptability in money management."
   },
   "selfWorth": {
-    "traitLabel": "Self-Worth",
+    "traitLabel": "self-worth",
     "axis": "Relationship Between Identity and Finances",
     "low": "Insecure",
-    "lowDesc": "Sees finances as proof of inadequacy; shame or comparison-driven.",
+    "lowDesc": [
+      "you tend to internalize financial setbacks as character flaws, viewing a low bank balance or a bad investment not just as a mistake, but as proof of your own inadequacy. This fusion of money and identity creates a fragile self-image that fluctuates wildly with your net worth.",
+      "This insecurity can drive two contradictory behaviors: either retreating in shame to avoid judgment, or overspending in a desperate attempt to perform success and buy validation. You may find yourself comparing your financial 'behind-the-scenes' to everyone else's 'highlight reel,' leading to chronic feelings of falling behind.",
+      "The core wound here is the belief that you are only as valuable as your assets. This makes it difficult to negotiate for higher pay or set boundaries, as you may not feel you 'deserve' abundance. Healing requires decoupling your intrinsic human worth from the numbers in your account."
+    ],
     "mid": "Grounded",
-    "midDesc": "Values self-worth beyond status; open to growth without defensiveness.",
+    "midDesc": [
+      "you maintain a healthy psychological separation between who you are and what you have. You understand that your net worth is a metric of your financial resources, not a measurement of your soul, your intelligence, or your value as a human being.",
+      "Because your identity is not on the line, you are open to growth and feedback. You can admit to financial mistakes without crumbling, and you can celebrate financial wins without becoming arrogant. You view money as a supporting character in your life story, not the protagonist.",
+      "This groundedness provides a stable foundation for true wealth building. You are less likely to make emotional decisions based on ego or shame. You can navigate both poverty and affluence with your dignity intact, knowing that your core self remains unchanged regardless of the economic climate."
+    ],
     "high": "Prideful",
-    "highDesc": "Links achievement to superiority; resistant to vulnerability or feedback.",
+    "highDesc": [
+      "you may use financial markers as a shield against vulnerability, linking your achievements to a sense of superiority over others. Money becomes a scorecard, and you likely derive a significant portion of your confidence from being 'better off' or 'smarter' than those around you.",
+      "This dependence on external validation makes you surprisingly fragile. You may be resistant to advice or defensive about your choices, viewing constructive criticism as a personal attack. You might struggle to be vulnerable about financial fears, preferring to maintain a facade of invincibility at all costs.",
+      "While this drive can propel you to high achievement, it often leaves you lonely at the top. Relationships may become transactional, and the fear of losing status can become a paralyzing weight. True confidence comes from knowing you would still be worthy of respect even if the money disappeared tomorrow."
+    ],
     "signature": "Reflects whether money reinforces or expresses a healthy sense of self."
   },
   "boundary": {
-    "traitLabel": "Boundary",
+    "traitLabel": "boundary",
     "axis": "Interpersonal Resource Balance",
     "low": "Compliant",
-    "lowDesc": "Gives or spends to maintain harmony; difficulty asserting limits.",
+    "lowDesc": [
+      "you likely view money as a currency for affection, approval, or peace. You may find it excruciatingly difficult to say 'no' to financial requests from family or friends, often prioritizing their immediate wants over your own long-term security.",
+      "This compliance often stems from a fear of rejection or conflict. You might pay for dinners you can't afford, lend money you'll never see again, or undercharge for your work, all to maintain a sense of harmony. Over time, this breeds resentment, as you feel depleted and taken advantage of.",
+      "The result is a porous financial life where your resources constantly leak out to others. You are acting as a shock absorber for other people's problems. Establishing health means realizing that true generosity can only come from a place of surplus, and that saying 'no' to others is often saying 'yes' to your own stability."
+    ],
     "mid": "Clear",
-    "midDesc": "Gives and receives with clarity; generosity and protection coexist.",
+    "midDesc": [
+      "you navigate financial relationships with clarity and kindness, understanding that clear boundaries are actually a form of respect. You are comfortable discussing money with partners and family, and you can distinguish between genuine support and enabling behavior.",
+      "You give freely, but not compulsively. Your generosity is a conscious choice aligned with your values, rather than a reaction to pressure or guilt. Conversely, you are also able to receive support without feeling diminished, understanding the natural flow of reciprocity.",
+      "This balance protects both your relationships and your bank account. People in your life know where you stand, which reduces friction and misunderstanding. You have built a 'financial fence' that has a gate—you decide when to open it and who to let in, ensuring your resources are used effectively."
+    ],
     "high": "Guarded",
-    "highDesc": "Highly protective of resources; cautious or resistant to shared spending.",
+    "highDesc": [
+      "you likely view financial requests as potential exploitations, leading you to wall off your resources aggressively. You may be secretive about your finances or hesitant to engage in shared spending, driven by a deep-seated suspicion that others will drain you if given the chance.",
+      "This guardedness often proceeds from a lack of trust in others or a scarcity mindset. You might split bills down to the penny or refuse to merge finances with a long-term partner, prioritizing self-protection above intimacy. While your assets are safe, your relationships may suffer from a lack of shared vision.",
+      "While independence is a virtue, extreme isolation limits your life. You may miss out on the compounding joy of shared experiences or the safety net of community support. Softening this stance involves learning that trust, when placed in the right people, is an asset rather than a liability."
+    ],
     "signature": "Captures how one balances generosity, reciprocity, and personal security."
   },
   "growth": {
-    "traitLabel": "Growth",
+    "traitLabel": "growth",
     "axis": "Approach to Learning and Change",
     "low": "Settled",
-    "lowDesc": "Avoids financial experimentation; prefers comfort over improvement.",
+    "lowDesc": [
+      "you prefer the safety of known routines over the potential risks of optimization. You likely stick to the same financial products, habits, or income sources for years, even if they are no longer serving you best. The familiar, even if suboptimal, feels safer than the unknown.",
+      "This resistance often masks a fear of incompetence or failure. You might avoid learning about investing or tax strategies because the learning curve feels overwhelming, telling yourself 'it’s fine the way it is.' You may be skeptical of new tools or advice, viewing change as an unnecessary hassle.",
+      "While this approach offers short-term comfort, it leads to long-term stagnation. The financial world is dynamic, and refusing to adapt means you are slowly falling behind inflation and innovation. Growth requires stepping out of the comfort zone and accepting that being a beginner is the first step to becoming a master."
+    ],
     "mid": "Reflective",
-    "midDesc": "Learns through reflection and small, steady adjustments.",
+    "midDesc": [
+      "you view financial management as an evolving skill set rather than a static trait. You are capable of looking back at your past financial behaviors, analyzing what worked and what didn't, and adjusting your course without harsh self-judgment.",
+      "Your learning style is iterative. You make small, steady improvements—increasing a savings percentage here, rebalancing a portfolio there. You are open to new information and expert advice, filtering it through your own goals to see if it applies to your situation.",
+      "This mindset fosters resilience and compounding success. Because you are not afraid to admit you don't know everything, you are constantly closing knowledge gaps. You treat your financial life as a laboratory where experiments are welcomed, and failures are simply data points for future success."
+    ],
     "high": "Driven",
-    "highDesc": "Seeks constant optimization; restless pursuit of “better” without pause.",
+    "highDesc": [
+      "you are likely caught in a cycle of perpetual optimization, where 'good enough' is never acceptable. You relentlessly pursue the highest yield, the perfect budget, or the ultimate side hustle, often driven by a nagging feeling that you could be doing more.",
+      "This restlessness can lead to 'paralysis by analysis' or constant tinkering. You may struggle to stick to a strategy long enough to see results because you are always chasing a slightly better option. The goalpost for satisfaction constantly moves, leaving you unable to savor your achievements.",
+      "While your ambition drives high efficiency, you risk burnout and dissatisfaction. You may view life solely as a problem to be solved rather than an experience to be lived. Sustainable growth for you means learning to recognize the point of diminishing returns and allowing yourself to rest in the success you have already built."
+    ],
     "signature": "Indicates openness to learning and capacity for sustained improvement."
   }
 }

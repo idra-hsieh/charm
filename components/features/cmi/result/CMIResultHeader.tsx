@@ -158,7 +158,7 @@ function CMIResultHeader({ resultData }: Props) {
                 <TooltipTrigger asChild>
                   <Info
                     size={16}
-                    className="absolute -right-7 top-1/2 -translate-y-1/2 text-foreground hover:text-accent transition-colors cursor-pointer"
+                    className="absolute -right-7 top-1/2 -translate-y-1/2 text-foreground hover:text-accent transition-colors cursor-help"
                   />
                 </TooltipTrigger>
                 <TooltipContent
@@ -195,7 +195,7 @@ function CMIResultHeader({ resultData }: Props) {
                 <TooltipTrigger asChild>
                   <Info
                     size={14}
-                    className="absolute -right-7 top-1/2 -translate-y-1/2 text-foreground/40 hover:text-accent transition-colors cursor-pointer"
+                    className="absolute -right-7 top-1/2 -translate-y-1/2 text-foreground/40 hover:text-accent transition-colors cursor-help"
                   />
                 </TooltipTrigger>
                 <TooltipContent
