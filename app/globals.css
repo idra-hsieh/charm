@@ -46,10 +46,10 @@
   --breakpoint-sm: 40rem;
   /* tablets (768px) */
   --breakpoint-md: 48rem;
-  /* specifically for cmi-result slide */
-  --breakpoint-slide: 1000px;
   /* laptop/desktop (1024px) */
   --breakpoint-lg: 64rem;
+  /* specifically for cmi-result slide */
+  --breakpoint-slide: 1150px;
   /* specifically for nav */
   --breakpoint-nav: 1150px;
 }

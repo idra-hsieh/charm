@@ -26,7 +26,8 @@
   "result_header_test_code": "TEST CODE: ",
   "result_header_create_account_info": "Result auto-links to your account.",
   "result_header_test_code_info": "Code emailed. Use to reload or link.",
-  "result_content_1": "1. Type Insights",
-  "result_content_2": "2. Growth Direction",
-  "result_content_3": "3. What to Do Next"
+  
+  "result_body_item1": "1. Type Insights",
+  "result_body_item2": "2. Growth Direction",
+  "result_body_item3": "3. What to Do Next"
 }

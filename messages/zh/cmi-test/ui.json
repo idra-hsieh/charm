@@ -26,7 +26,8 @@
   "result_header_test_code": "測驗代碼：",
   "result_header_create_account_info": "結果將自動綁定到帳號。",
   "result_header_test_code_info": "代碼已寄出，可重讀或綁定至既有帳號。",
-  "result_content_1": "1. 性格洞察",
-  "result_content_2": "2. 成長方向",
-  "result_content_3": "3. 下一步行動"
+
+  "result_body_item1": "1. 性格洞察",
+  "result_body_item2": "2. 成長方向",
+  "result_body_item3": "3. 下一步行動"
 }

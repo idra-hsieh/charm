@@ -26,7 +26,8 @@
   "result_header_test_code": "テストコード：",
   "result_header_create_account_info": "結果は自動でアカウントに紐づきます。",
   "result_header_test_code_info": "コード送信済み。再表示・連携に使用。",
-  "result_content_1": "1. タイプの特徴",
-  "result_content_2": "2. 成長の方向性",
-  "result_content_3": "3. 次にすべきこと"
+
+  "result_body_item1": "1. タイプの特徴",
+  "result_body_item2": "2. 成長の方向性",
+  "result_body_item3": "3. 次にすべきこと"
 }

@@ -24,7 +24,7 @@ function FamilySlide({ result, badgeSrc }: Props) {
           {tUi("result_header_family_title")}
           {" :"}
         </p>
-        <h1 className="text-2xl slide:text-3xl font-black font-primary tracking-wide text-foreground/95 leading-tight">
+        <h1 className="text-3xl font-black font-primary tracking-wide text-foreground/95 leading-tight">
           {tFamilies(`${result.family.bits}.name`)}
         </h1>
       </div>

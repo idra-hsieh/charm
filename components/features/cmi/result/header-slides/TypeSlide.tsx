@@ -25,7 +25,7 @@ function TypeSlide({ result, avatarSrc }: Props) {
           {tUi("result_header_type_title")}
           {" :"}
         </p>
-        <h1 className="text-2xl slide:text-3xl font-black font-primary tracking-wide text-foreground/95 leading-tight">
+        <h1 className="text-3xl font-black font-primary tracking-wide text-foreground/95 leading-tight">
           {tTypes(`${result.type.id}.name`)}
         </h1>
       </div>

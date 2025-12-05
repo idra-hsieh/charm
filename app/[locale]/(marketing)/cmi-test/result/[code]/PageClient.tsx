@@ -21,7 +21,7 @@ export default function PageClient({ resultData }: Props) {
           </div>
 
           {/* 2. Body Section (Sidebar + Content) */}
-          {/* <CMIResultBody resultData={resultData} /> */}
+          <CMIResultBody resultData={resultData} />
 
           {/* 3. Trait Scores */}
           {/* <CMITraitScores traitScores={resultData.traitScores} /> */}
