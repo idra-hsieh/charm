@@ -14,13 +14,12 @@ export default function CMIResultBody({ resultData }: Props) {
   const tUi = useTranslations("cmi.ui");
   
   // 2. Load Type-specific translations (for content)
-  // Dynamically select the namespace based on type.id (1-32)
   const typeId = resultData.result.type.id;
   const tType = useTranslations(`cmi.types.${typeId}`);
   
   const [activeSection, setActiveSection] = useState("section-1");
 
-  // Scroll Spy: Update the active sidebar link based on scroll position
+  // Scroll Spy Logic (Unchanged)
   useEffect(() => {
     const handleScroll = () => {
       const sections = ["section-1", "section-2", "section-3"];
@@ -29,7 +28,6 @@ export default function CMIResultBody({ resultData }: Props) {
         const element = document.getElementById(sectionId);
         if (element) {
           const rect = element.getBoundingClientRect();
-          // Logic: If section top is near viewport top OR user is scrolling inside a long section
           if ((rect.top >= 0 && rect.top <= 350) || (rect.top < 0 && rect.bottom > 150)) {
             setActiveSection(sectionId);
             break;
@@ -39,14 +37,14 @@ export default function CMIResultBody({ resultData }: Props) {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // Initial check on mount
+    handleScroll(); 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      const offset = 120; // Offset for sticky header height
+      const offset = 120;
       const bodyRect = document.body.getBoundingClientRect().top;
       const elementRect = element.getBoundingClientRect().top;
       const elementPosition = elementRect - bodyRect;
@@ -66,12 +64,29 @@ export default function CMIResultBody({ resultData }: Props) {
     { id: "section-3", label: tUi("result_body_item3") },
   ];
 
+  // Helper to render array content safely
+  // We use tType.raw() to get the array from the JSON
+  const renderContent = (key: string) => {
+    const content = tType.raw(key) as string[]; 
+    
+    // Safety check in case the translation is missing or not an array
+    if (!Array.isArray(content)) return <p>{tType(key)}</p>;
+
+    return content.map((paragraph, index) => (
+      <p 
+        key={index} 
+        className="leading-loose text-md text-foreground/70 mb-4 last:mb-0"
+      >
+        {paragraph}
+      </p>
+    ));
+  };
+
   return (
     <div className="w-full max-w-5xl mx-auto px-15 py-15 slide:py-20 bg-marble rounded-3xl">
       <div className="flex flex-col slide:flex-row gap-15 relative">
         
-        {/* Sidebar Navigation */}
-        {/* The entire aside is the sticky marble card */}
+        {/* Sidebar Navigation (Unchanged) */}
         <aside className="hidden slide:block w-55 flex-shrink-0 sticky top-32 h-fit bg-background/40 bg-cover bg-center rounded-2xl shadow-2xl border border-stone-100/50">
           <nav className="p-6 space-y-5">
             {navItems.map((item) => (
@@ -81,8 +96,8 @@ export default function CMIResultBody({ resultData }: Props) {
                 className={cn(
                   "block text-left text-sm transition-all duration-300 w-full pl-3 border-l-2",
                   activeSection === item.id 
-                    ? "font-bold text-accent border-accent" // Active
-                    : "text-foreground/50 border-transparent hover:text-foreground/80 hover:font-medium hover:border-stone-300" // Inactive
+                    ? "font-bold text-accent border-accent" 
+                    : "text-foreground/50 border-transparent hover:text-foreground/80 hover:font-medium hover:border-stone-300" 
                 )}
               >
                 {item.label}
@@ -100,9 +115,8 @@ export default function CMIResultBody({ resultData }: Props) {
               {tUi("result_body_item1")}
             </h2>
             <div className="prose prose-stone max-w-none">
-              <p className="leading-loose text-md whitespace-pre-line text-foreground/70">
-                {tType("insights")}
-              </p>
+              {/* UPDATED: Uses renderContent helper */}
+              {renderContent("insights")}
             </div>
           </section>
 
@@ -112,9 +126,8 @@ export default function CMIResultBody({ resultData }: Props) {
               {tUi("result_body_item2")}
             </h2>
             <div className="prose prose-stone max-w-none">
-              <p className="leading-loose text-md whitespace-pre-line text-foreground/70">
-                {tType("directions")}
-              </p>
+               {/* UPDATED: Uses renderContent helper */}
+              {renderContent("directions")}
             </div>
           </section>
 
@@ -124,9 +137,8 @@ export default function CMIResultBody({ resultData }: Props) {
               {tUi("result_body_item3")}
             </h2>
             <div className="prose prose-stone max-w-none">
-              <p className="leading-loose text-md whitespace-pre-line text-foreground/70">
-                {tType("nextSteps")}
-              </p>
+               {/* UPDATED: Uses renderContent helper */}
+              {renderContent("nextSteps")}
             </div>
           </section>
 

@@ -1,194 +1,514 @@
 {
   "1": {
     "name": "The Dreamer",
-    "insights": "You live in the potential future to escape the discomfort of the present. Money feels abstract to you because keeping it vague is a defense mechanism; if you don’t look at the numbers, you don’t have to feel the shame of not being where you want to be.  You often believe that a future 'windfall' or a magical shift in circumstances will solve everything, which prevents you from taking small, imperfect actions today.",
-    "directions": "Your path to growth is grounding. You must learn that looking at reality — even if it is not the reality you want yet — is safer than hiding from it. The goal is to shrink the gap between your imagination and your bank account by turning financial awareness into a practice of self-care rather than self-punishment. Peace comes from clarity, not avoidance.",
-    "nextSteps": "Start by simply witnessing your financial reality without trying to fix it immediately. Calculate your total cash on hand to break the spell of avoidance. Choose one recurring payment to track religiously, treating this act of observation as a victory in itself. By repeatedly facing the numbers without judgment, you will desensitize yourself to the fear and find that the monster in the closet is smaller than you thought."
+    "insights": [
+      "You live in the potential future to escape the discomfort of the present. Money feels abstract to you because keeping it vague is a defense mechanism; if you don’t look at the numbers, you don’t have to feel the shame of not being where you want to be.",
+      "You often believe that a future 'windfall' or a magical shift in circumstances will solve everything, which prevents you from taking small, imperfect actions today."
+    ],
+    "directions": [
+      "Your path to growth is grounding. You must learn that looking at reality — even if it is not the reality you want yet — is safer than hiding from it.",
+      "The goal is to shrink the gap between your imagination and your bank account by turning financial awareness into a practice of self-care rather than self-punishment. Peace comes from clarity, not avoidance."
+    ],
+    "nextSteps": [
+      "Start by simply witnessing your financial reality without trying to fix it immediately. Calculate your total cash on hand to break the spell of avoidance.",
+      "Choose one recurring payment to track religiously, treating this act of observation as a victory in itself.",
+      "By repeatedly facing the numbers without judgment, you will desensitize yourself to the fear and find that the monster in the closet is smaller than you thought."
+    ]
   },
   "2": {
     "name": "The Explorer",
-    "insights": "You prioritize freedom above all else, often viewing structure as a cage. You move on instinct and dopamine, chasing the thrill of new beginnings while abandoning projects when the novelty fades. This inconsistency creates a low-level background anxiety: you fear that if you settle down or plan too rigidly, you will lose your spark. At the same time, your lack of a safety net prevents you from truly exploring with confidence.",
-    "directions": "You need to reframe structure not as a cage, but as a launchpad. True exploration requires a base camp. Your growth involves building 'light structure' — minimal, non-negotiable financial rhythms that run on autopilot — so that your adventurous spirit doesn’t lead to self-sabotage. You are learning that consistency actually buys you more freedom.",
-    "nextSteps": "Implement a financial rhythm that feels more like a ritual than a chore, such as a 'Sunday Reset.' Establish two distinct buckets: an 'adventure fund' for guilt-free spontaneity and a 'safety fund' to quiet your anxiety. Before making impulsive purchases, pause to identify if you are buying out of genuine curiosity or simply trying to escape boredom."
+    "insights": [
+      "You prioritize freedom above all else, often viewing structure as a cage. You move on instinct and dopamine, chasing the thrill of new beginnings while abandoning projects when the novelty fades.",
+      "This inconsistency creates a low-level background anxiety: you fear that if you settle down or plan too rigidly, you will lose your spark. At the same time, your lack of a safety net prevents you from truly exploring with confidence."
+    ],
+    "directions": [
+      "You need to reframe structure not as a cage, but as a launchpad. True exploration requires a base camp.",
+      "Your growth involves building 'light structure' — minimal, non-negotiable financial rhythms that run on autopilot — so that your adventurous spirit doesn’t lead to self-sabotage. You are learning that consistency actually buys you more freedom."
+    ],
+    "nextSteps": [
+      "Implement a financial rhythm that feels more like a ritual than a chore, such as a 'Sunday Reset.'",
+      "Establish two distinct buckets: an 'adventure fund' for guilt-free spontaneity and a 'safety fund' to quiet your anxiety.",
+      "Before making impulsive purchases, pause to identify if you are buying out of genuine curiosity or simply trying to escape boredom."
+    ]
   },
   "3": {
     "name": "The Analyzer",
-    "insights": "You use logic as a shield against the vulnerability of risk. You believe that if you just have enough data, you can make the 'perfect' decision and avoid the pain of regret. This leads to analysis paralysis, where the fear of making a mistake outweighs the cost of inaction:contentReference[oaicite:10]{index=10}. You often confuse thinking about money with actually managing it.",
-    "directions": "Your growth direction is action over accuracy. You must learn to tolerate the discomfort of imperfection. Moving forward requires accepting that no decision is risk-free and that mistakes are data points, not character flaws. You need to shift from a 'pass/fail' mentality to a 'test/learn' mentality, trusting your ability to adapt more than your ability to predict.",
-    "nextSteps": "Practice making micro-decisions without looking back. Commit to making one financial choice this week without reviewing it twice. When doubt arises, ask yourself what the smallest truth is that you can test right now. Shift your weekly reflection to focus on what you learned from your actions rather than critiquing the outcomes."
+    "insights": [
+      "You use logic as a shield against the vulnerability of risk. You believe that if you just have enough data, you can make the 'perfect' decision and avoid the pain of regret.",
+      "This leads to analysis paralysis, where the fear of making a mistake outweighs the cost of inaction. You often confuse thinking about money with actually managing it."
+    ],
+    "directions": [
+      "Your growth direction is action over accuracy. You must learn to tolerate the discomfort of imperfection.",
+      "Moving forward requires accepting that no decision is risk-free and that mistakes are data points, not character flaws. You need to shift from a 'pass/fail' mentality to a 'test/learn' mentality, trusting your ability to adapt more than your ability to predict."
+    ],
+    "nextSteps": [
+      "Practice making micro-decisions without looking back. Commit to making one financial choice this week without reviewing it twice.",
+      "When doubt arises, ask yourself what the smallest truth is that you can test right now.",
+      "Shift your weekly reflection to focus on what you learned from your actions rather than critiquing the outcomes."
+    ]
   },
   "4": {
     "name": "The Cycler",
-    "insights": "Your financial life is defined by a binge-and-restrict cycle. You oscillate between rigid control — where you budget every penny — and total avoidance, where you rebel against your own rules. This stems from a belief that discipline requires suffering. When the pressure becomes too high, you snap, leading to burnout and chaotic spending, followed by shame and a return to rigidity.",
-    "directions": "You need to find the 'middle path' between chaos and rigidity. Your growth lies in sustainability and forgiveness. Instead of aiming for a perfect month, aim for a resilient one. You are learning to see a slip-up not as a reason to abandon the plan, but as a signal that your plan was too tight. Resilience is about how quickly you recover, not how long you go without stumbling.",
-    "nextSteps": "Focus on building one small, repeatable habit, such as checking your balances weekly, that you can maintain even on your worst days. Build a 'chaos buffer' into your budget — money explicitly designed to be 'wasted' — so that spontaneity doesn’t feel like failure. When you lapse, practice celebrating your return to the path rather than shaming the detour."
+    "insights": [
+      "Your financial life is defined by a binge-and-restrict cycle. You oscillate between rigid control — where you budget every penny — and total avoidance, where you rebel against your own rules.",
+      "This stems from a belief that discipline requires suffering. When the pressure becomes too high, you snap, leading to burnout and chaotic spending, followed by shame and a return to rigidity."
+    ],
+    "directions": [
+      "You need to find the 'middle path' between chaos and rigidity. Your growth lies in sustainability and forgiveness. Instead of aiming for a perfect month, aim for a resilient one.",
+      "You are learning to see a slip-up not as a reason to abandon the plan, but as a signal that your plan was too tight. Resilience is about how quickly you recover, not how long you go without stumbling."
+    ],
+    "nextSteps": [
+      "Focus on building one small, repeatable habit, such as checking your balances weekly, that you can maintain even on your worst days.",
+      "Build a 'chaos buffer' into your budget — money explicitly designed to be 'wasted' — so that spontaneity doesn’t feel like failure.",
+      "When you lapse, practice celebrating your return to the path rather than shaming the detour."
+    ]
   },
   "5": {
     "name": "The Giver",
-    "insights": "You derive your sense of worth from your utility to others. Generosity is your default state, but it often serves as a cover for a deep-seated insecurity: you fear that if you aren’t providing, you aren’t lovable. This leads to overextending yourself financially to 'save' or please others, often at the expense of your own future stability. In fact, research shows people who over-give often suffer from low self-esteem and neglect their own needs:contentReference[oaicite:11]{index=11}.",
-    "directions": "You must learn that self-preservation is a prerequisite for sustainable generosity. Your growth involves establishing boundaries and understanding that you cannot pour from an empty cup. You need to separate your net worth from your self-worth and realize that saying 'no' to others is often a way of saying 'yes' to your own well-being.",
-    "nextSteps": "Begin by listing ways you can offer value and love without opening your wallet. Establish a strict 'care budget' with a hard cap, treating it as a boundary not to be crossed. Practice the phrase 'That is enough for now' — both to others and to yourself — to reinforce the idea that your presence is more valuable than your presents."
+    "insights": [
+      "You derive your sense of worth from your utility to others. Generosity is your default state, but it often serves as a cover for a deep-seated insecurity: you fear that if you aren’t providing, you aren’t lovable.",
+      "This leads to overextending yourself financially to 'save' or please others, often at the expense of your own future stability. In fact, research shows people who over-give often suffer from low self-esteem and neglect their own needs."
+    ],
+    "directions": [
+      "You must learn that self-preservation is a prerequisite for sustainable generosity. Your growth involves establishing boundaries and understanding that you cannot pour from an empty cup.",
+      "You need to separate your net worth from your self-worth and realize that saying 'no' to others is often a way of saying 'yes' to your own well-being."
+    ],
+    "nextSteps": [
+      "Begin by listing ways you can offer value and love without opening your wallet.",
+      "Establish a strict 'care budget' with a hard cap, treating it as a boundary not to be crossed.",
+      "Practice the phrase 'That is enough for now' — both to others and to yourself — to reinforce the idea that your presence is more valuable than your presents."
+    ]
   },
   "6": {
     "name": "The Performer",
-    "insights": "You use money as a stage light. You are driven by the need to be seen as successful, generous, or 'together.' While you project confidence, there is a hollow anxiety inside: you are terrified that if the applause stops or the lifestyle fades, you will be exposed as a fraud. You often spend to maintain an image of who you wish you were, rather than nourishing who you actually are. This aligns with what experts call 'financial imposter syndrome' — many people feel anxious despite solid finances:contentReference[oaicite:12]{index=12}.",
-    "directions": "Your journey is about moving from external validation to internal security. You need to decouple your financial choices from the gaze of an audience. True wealth for you is the quiet confidence that comes from having resources that no one else knows about. You are learning to find satisfaction in private victories rather than public displays.",
-    "nextSteps": "Challenge yourself to track your spending privately for a full day without discussing it or posting about it. Establish a rule that the reaction of others can never be the deciding factor in a purchase. Weekly, audit your spending with the question: 'Did this choice feed my peace or merely feed my image?'"
+    "insights": [
+      "You use money as a stage light. You are driven by the need to be seen as successful, generous, or 'together.' While you project confidence, there is a hollow anxiety inside: you are terrified that if the applause stops or the lifestyle fades, you will be exposed as a fraud.",
+      "You often spend to maintain an image of who you wish you were, rather than nourishing who you actually are. This aligns with what experts call 'financial imposter syndrome' — many people feel anxious despite solid finances."
+    ],
+    "directions": [
+      "Your journey is about moving from external validation to internal security. You need to decouple your financial choices from the gaze of an audience.",
+      "True wealth for you is the quiet confidence that comes from having resources that no one else knows about. You are learning to find satisfaction in private victories rather than public displays."
+    ],
+    "nextSteps": [
+      "Challenge yourself to track your spending privately for a full day without discussing it or posting about it.",
+      "Establish a rule that the reaction of others can never be the deciding factor in a purchase.",
+      "Weekly, audit your spending with the question: 'Did this choice feed my peace or merely feed my image?'"
+    ]
   },
   "7": {
     "name": "The Idealist",
-    "insights": "You hold your financial life to impossible moral or ethical standards. You judge money choices — yours and others’ — through a lens of purity. This often leads to a paralyzing 'all or nothing' mindset where you refuse to engage with the financial system because it feels flawed, or you shame yourself for participating in capitalism. Your pursuit of the 'right' way prevents you from finding a practical, working path to your goals.",
-    "directions": "You need to bridge your high ideals with the gritty reality of daily life. Your growth involves embracing pragmatism and flexibility. You are learning that financial stability gives you more power to effect change than financial martyrdom does. It is about progress, not purity; you can live by your values without being a prisoner to them.",
-    "nextSteps": "Identify three rigid beliefs you hold about 'correct' money behavior and choose one to question this week. Intentionally spend money on something that brings you simple joy, unrelated to your principles, to practice flexibility. When you see others making different choices, replace judgment with curiosity to loosen the knot of moral superiority."
+    "insights": [
+      "You hold your financial life to impossible moral or ethical standards. You judge money choices — yours and others’ — through a lens of purity. This often leads to a paralyzing 'all or nothing' mindset where you refuse to engage with the financial system because it feels flawed, or you shame yourself for participating in capitalism.",
+      "Your pursuit of the 'right' way prevents you from finding a practical, working path to your goals."
+    ],
+    "directions": [
+      "You need to bridge your high ideals with the gritty reality of daily life. Your growth involves embracing pragmatism and flexibility.",
+      "You are learning that financial stability gives you more power to effect change than financial martyrdom does. It is about progress, not purity; you can live by your values without being a prisoner to them."
+    ],
+    "nextSteps": [
+      "Identify three rigid beliefs you hold about 'correct' money behavior and choose one to question this week.",
+      "Intentionally spend money on something that brings you simple joy, unrelated to your principles, to practice flexibility.",
+      "When you see others making different choices, replace judgment with curiosity to loosen the knot of moral superiority."
+    ]
   },
   "8": {
     "name": "The Presenter",
-    "insights": "You are the master of the façade. On the surface, your finances look organized and your life looks composed, but this control is brittle. You equate composure with safety, believing that if you let anyone see the messy reality, you will be rejected or deemed incompetent. You are exhausted by the effort of keeping the mask in place.",
-    "directions": "Your path to healing is vulnerability. You need to understand that admitting to chaos or confusion is not a weakness, but a gateway to support. Your growth lies in dropping the performance and allowing yourself to be human. You are learning that real safety comes from being known and accepted, flaws and all, not from being admired for a lie.",
-    "nextSteps": "Choose one financial metric or expectation you will intentionally ignore for a week to practice releasing control. Replace an act of 'performing stability' with a moment of honest sharing with a trusted friend or partner. Actively add 'rest' to your to-do list to acknowledge that your human limits are real and valid."
+    "insights": [
+      "You are the master of the façade. On the surface, your finances look organized and your life looks composed, but this control is brittle.",
+      "You equate composure with safety, believing that if you let anyone see the messy reality, you will be rejected or deemed incompetent. You are exhausted by the effort of keeping the mask in place."
+    ],
+    "directions": [
+      "Your path to healing is vulnerability. You need to understand that admitting to chaos or confusion is not a weakness, but a gateway to support.",
+      "Your growth lies in dropping the performance and allowing yourself to be human. You are learning that real safety comes from being known and accepted, flaws and all, not from being admired for a lie."
+    ],
+    "nextSteps": [
+      "Choose one financial metric or expectation you will intentionally ignore for a week to practice releasing control.",
+      "Replace an act of 'performing stability' with a moment of honest sharing with a trusted friend or partner.",
+      "Actively add 'rest' to your to-do list to acknowledge that your human limits are real and valid."
+    ]
   },
   "9": {
     "name": "The Responder",
-    "insights": "You live your financial life in reaction mode. You are highly adaptable to the needs of others and the demands of the moment, but this leaves you with no center of your own. You likely struggle to articulate what *you* want because you are so busy accommodating what the world asks of you. Structure feels oppressive because you are used to structure being imposed by others, not created by yourself.",
-    "directions": "You need to cultivate 'micro-agency.' Your growth involves shifting from a passenger to a driver. It is about creating a pause between the stimulus (a bill, a request, an impulse) and your response. You are learning that planning is not a restriction of freedom, but a way to protect your time and resources for the things that actually matter to you.",
-    "nextSteps": "Create a personal rule to pause and 'check in' before agreeing to any financial commitment. Implement a five-minute daily review to prioritize your own desires before opening your inbox or looking at bills. Practice saying 'I'll get back to you' to buy yourself the time needed to make a decision from a place of intention rather than pressure."
+    "insights": [
+      "You live your financial life in reaction mode. You are highly adaptable to the needs of others and the demands of the moment, but this leaves you with no center of your own.",
+      "You likely struggle to articulate what *you* want because you are so busy accommodating what the world asks of you. Structure feels oppressive because you are used to structure being imposed by others, not created by yourself."
+    ],
+    "directions": [
+      "You need to cultivate 'micro-agency.' Your growth involves shifting from a passenger to a driver. It is about creating a pause between the stimulus (a bill, a request, an impulse) and your response.",
+      "You are learning that planning is not a restriction of freedom, but a way to protect your time and resources for the things that actually matter to you."
+    ],
+    "nextSteps": [
+      "Create a personal rule to pause and 'check in' before agreeing to any financial commitment.",
+      "Implement a five-minute daily review to prioritize your own desires before opening your inbox or looking at bills.",
+      "Practice saying 'I'll get back to you' to buy yourself the time needed to make a decision from a place of intention rather than pressure."
+    ]
   },
   "10": {
     "name": "The Perfectionist",
-    "insights": "You seek to control your anxiety through flawless execution. You love spreadsheets and budgets because they promise a world where everything adds up and nothing is unexpected. However, when life inevitably gets messy, you view it as a personal failure. Your pursuit of the 'perfect' financial setup is actually a form of procrastination that keeps you from dealing with the messy reality of life:contentReference[oaicite:13]{index=13}.",
-    "directions": "Your growth direction is 'good enough.' You must learn to value adaptability over accuracy. Life is not a math problem to be solved, but a wave to be ridden. You need to loosen your grip and trust that you can handle the unexpected without a spreadsheet. Real security comes from your internal resilience, not your external organization.",
-    "nextSteps": "Intentionally leave one cell incomplete or estimated in your next tracking session to practice sitting with imperfection. Label one category of expense as 'good enough' and refuse to optimize it further. At the end of the week, celebrate a moment where you adapted to a change rather than a moment where you stuck to the plan."
+    "insights": [
+      "You seek to control your anxiety through flawless execution. You love spreadsheets and budgets because they promise a world where everything adds up and nothing is unexpected.",
+      "However, when life inevitably gets messy, you view it as a personal failure. Your pursuit of the 'perfect' financial setup is actually a form of procrastination that keeps you from dealing with the messy reality of life."
+    ],
+    "directions": [
+      "Your growth direction is 'good enough.' You must learn to value adaptability over accuracy. Life is not a math problem to be solved, but a wave to be ridden.",
+      "You need to loosen your grip and trust that you can handle the unexpected without a spreadsheet. Real security comes from your internal resilience, not your external organization."
+    ],
+    "nextSteps": [
+      "Intentionally leave one cell incomplete or estimated in your next tracking session to practice sitting with imperfection.",
+      "Label one category of expense as 'good enough' and refuse to optimize it further.",
+      "At the end of the week, celebrate a moment where you adapted to a change rather than a moment where you stuck to the plan."
+    ]
   },
   "11": {
     "name": "The Protector",
-    "insights": "You view money primarily as a fortress. You equate saving with safety and spending with danger. While you may have a healthy savings account, you live in a state of scarcity, terrified that one wrong move will ruin you. This hyper-vigilance limits your ability to enjoy life or connect with others, as you are constantly guarding the gates against potential loss. Studies note that a scarcity mindset can make people feel insecure even when their finances are solid:contentReference[oaicite:14]{index=14}.",
-    "directions": "You need to learn that money is a resource to be used, not just hoarded. Your growth involves moving from a mindset of survival to a mindset of stewardship. You are learning to trust that you are safe enough to let down your guard occasionally. It is about finding the balance between preparing for the future and actually living in the present.",
-    "nextSteps": "Assign a small, mandatory 'freedom amount' each week that must be spent on enjoyment, not necessities. Journal on the specific fears you are protecting yourself from to bring them into the light. Practice openness by sharing one small financial detail with a trusted person, proving to your nervous system that transparency does not equal danger."
+    "insights": [
+      "You view money primarily as a fortress. You equate saving with safety and spending with danger. While you may have a healthy savings account, you live in a state of scarcity, terrified that one wrong move will ruin you.",
+      "This hyper-vigilance limits your ability to enjoy life or connect with others, as you are constantly guarding the gates against potential loss. Studies note that a scarcity mindset can make people feel insecure even when their finances are solid."
+    ],
+    "directions": [
+      "You need to learn that money is a resource to be used, not just hoarded. Your growth involves moving from a mindset of survival to a mindset of stewardship.",
+      "You are learning to trust that you are safe enough to let down your guard occasionally. It is about finding the balance between preparing for the future and actually living in the present."
+    ],
+    "nextSteps": [
+      "Assign a small, mandatory 'freedom amount' each week that must be spent on enjoyment, not necessities.",
+      "Journal on the specific fears you are protecting yourself from to bring them into the light.",
+      "Practice openness by sharing one small financial detail with a trusted person, proving to your nervous system that transparency does not equal danger."
+    ]
   },
   "12": {
     "name": "The Steward",
-    "insights": "You are the responsible one. You manage the bills, the plans, and the logistics with heavy diligence. You believe that your worth is tied to your reliability and that if you stop managing everything, it will all fall apart. However, this duty feels heavy, and you likely harbor a secret resentment toward those who seem to live more lightly than you.",
-    "directions": "Your path involves lightening the load. You need to recognize that over-functioning is a trauma response, not just a virtue. Your growth lies in automation and delegation — allowing systems or other people to carry some of the weight. You are learning that you can be responsible without being burdened, and that leadership includes the wisdom to rest.",
-    "nextSteps": "Simplify or automate one process you currently manage manually to prove the world won't end if you aren't touching it. Schedule a specific 'no-finance' evening each week where you are forbidden from being productive. Track how your mental clarity improves when you allow yourself to step back from the role of the constant manager."
+    "insights": [
+      "You are the responsible one. You manage the bills, the plans, and the logistics with heavy diligence. You believe that your worth is tied to your reliability and that if you stop managing everything, it will all fall apart.",
+      "However, this duty feels heavy, and you likely harbor a secret resentment toward those who seem to live more lightly than you."
+    ],
+    "directions": [
+      "Your path involves lightening the load. You need to recognize that over-functioning is a trauma response, not just a virtue.",
+      "Your growth lies in automation and delegation — allowing systems or other people to carry some of the weight. You are learning that you can be responsible without being burdened, and that leadership includes the wisdom to rest."
+    ],
+    "nextSteps": [
+      "Simplify or automate one process you currently manage manually to prove the world won't end if you aren't touching it.",
+      "Schedule a specific 'no-finance' evening each week where you are forbidden from being productive.",
+      "Track how your mental clarity improves when you allow yourself to step back from the role of the constant manager."
+    ]
   },
   "13": {
     "name": "The Guide",
-    "insights": "You are excellent at helping others navigate their finances but often neglect your own. Teaching and advising makes you feel competent and in control, providing a safe distance from your own vulnerability. You may feel like a hypocrite, knowing the 'right' answers but struggling to apply them to your own messy reality.",
-    "directions": "You need to turn your wisdom inward. Your growth requires you to become your own client. You must treat your own situation with the same compassion and objectivity you offer to others. It is about closing the integrity gap between what you know and what you do, and realizing that you deserve your own guidance.",
-    "nextSteps": "Commit to doing for yourself exactly what you would advise a friend to do in your situation. Block out time weekly for 'self-guidance' where you treat your own finances with professional focus. Reflect on why helping others feels safer than helping yourself, and gently challenge that avoidance."
+    "insights": [
+      "You are excellent at helping others navigate their finances but often neglect your own. Teaching and advising makes you feel competent and in control, providing a safe distance from your own vulnerability.",
+      "You may feel like a hypocrite, knowing the 'right' answers but struggling to apply them to your own messy reality."
+    ],
+    "directions": [
+      "You need to turn your wisdom inward. Your growth requires you to become your own client. You must treat your own situation with the same compassion and objectivity you offer to others.",
+      "It is about closing the integrity gap between what you know and what you do, and realizing that you deserve your own guidance."
+    ],
+    "nextSteps": [
+      "Commit to doing for yourself exactly what you would advise a friend to do in your situation.",
+      "Block out time weekly for 'self-guidance' where you treat your own finances with professional focus.",
+      "Reflect on why helping others feels safer than helping yourself, and gently challenge that avoidance."
+    ]
   },
   "14": {
     "name": "The Planner",
-    "insights": "You are addicted to the potential of the future. You love creating complex strategies and visions because the act of planning releases dopamine and makes you feel productive. However, you struggle with execution and completion. You often mistake the motion of planning for the progress of doing, constantly optimizing a machine that you never actually turn on.",
-    "directions": "Your growth involves shifting from architect to builder. You need to stop optimizing and start finishing. The goal is to embrace 'stupid simple' execution over brilliant strategy. You are learning that a mediocre plan executed today is infinitely better than a perfect plan delayed until tomorrow. Focus on closing loops rather than opening new ones.",
-    "nextSteps": "Set a clear 'completion signal' for your current plan so you know exactly when to stop tweaking. Force yourself to replace the excitement of a new idea with the discipline of refining an existing one. Schedule breaks as a functional part of your plan to prevent burnout, rather than viewing them as a failure of your strategy."
+    "insights": [
+      "You are addicted to the potential of the future. You love creating complex strategies and visions because the act of planning releases dopamine and makes you feel productive. However, you struggle with execution and completion.",
+      "You often mistake the motion of planning for the progress of doing, constantly optimizing a machine that you never actually turn on."
+    ],
+    "directions": [
+      "Your growth involves shifting from architect to builder. You need to stop optimizing and start finishing. The goal is to embrace 'stupid simple' execution over brilliant strategy.",
+      "You are learning that a mediocre plan executed today is infinitely better than a perfect plan delayed until tomorrow. Focus on closing loops rather than opening new ones."
+    ],
+    "nextSteps": [
+      "Set a clear 'completion signal' for your current plan so you know exactly when to stop tweaking.",
+      "Force yourself to replace the excitement of a new idea with the discipline of refining an existing one.",
+      "Schedule breaks as a functional part of your plan to prevent burnout, rather than viewing them as a failure of your strategy."
+    ]
   },
   "15": {
     "name": "The Evaluator",
-    "insights": "You filter every financial decision through a moral lens of value and waste. You obsess over whether a purchase is 'justified' or 'fair,' often denying yourself needs or wants that don't pass your strict internal audit. This rigidity creates a life that is principled but joyless, and can make you judgmental of others who spend with more ease.",
-    "directions": "You need to introduce grace into your calculations. Your growth lies in recognizing that emotional value is real value. You are learning to move from judgment to discernment — understanding that sometimes the 'wasteful' choice is actually the one that nourishes your soul. It is about softening your internal judge and allowing for the humanity of desire.",
-    "nextSteps": "Intentionally soften one financial rule this week to practice flexibility. Spend money on something purely for emotional satisfaction, without trying to justify it as 'deserved' or 'sensible.'\n\nAsk yourself what generosity toward yourself would look like if you removed the requirement of utility."
+    "insights": [
+      "You filter every financial decision through a moral lens of value and waste. You obsess over whether a purchase is 'justified' or 'fair,' often denying yourself needs or wants that don't pass your strict internal audit.",
+      "This rigidity creates a life that is principled but joyless, and can make you judgmental of others who spend with more ease."
+    ],
+    "directions": [
+      "You need to introduce grace into your calculations. Your growth lies in recognizing that emotional value is real value.",
+      "You are learning to move from judgment to discernment — understanding that sometimes the 'wasteful' choice is actually the one that nourishes your soul. It is about softening your internal judge and allowing for the humanity of desire."
+    ],
+    "nextSteps": [
+      "Intentionally soften one financial rule this week to practice flexibility.",
+      "Spend money on something purely for emotional satisfaction, without trying to justify it as 'deserved' or 'sensible.'",
+      "Ask yourself what generosity toward yourself would look like if you removed the requirement of utility."
+    ]
   },
   "16": {
     "name": "The Organizer",
-    "insights": "You find comfort in categorization and order. Your finances are likely immaculate, but this order is a container for anxiety. You fear that without strict organization, chaos will ensue. You are excellent at maintenance but hesitant to explore, often missing out on opportunities for growth or joy because they don’t fit neatly into your pre-existing boxes.",
-    "directions": "Your growth involves embracing the messy edges of life. You need to allow for spontaneity and the unquantifiable. You are learning that a well-lived life cannot always be categorized, and that sometimes the best investments are the ones that don’t fit on a spreadsheet. It is about prioritizing the 'feeling' of life over the 'function' of it.",
-    "nextSteps": "Try one 'unoptimized' expense where you spend for the feeling rather than the function. Take a day off from tracking to notice the emotions that arise when the guardrails are down. Journal on the question: 'If everything stayed financially fine, what else would I want from my life?' to reconnect with your desires beyond security."
+    "insights": [
+      "You find comfort in categorization and order. Your finances are likely immaculate, but this order is a container for anxiety. You fear that without strict organization, chaos will ensue.",
+      "You are excellent at maintenance but hesitant to explore, often missing out on opportunities for growth or joy because they don’t fit neatly into your pre-existing boxes."
+    ],
+    "directions": [
+      "Your growth involves embracing the messy edges of life. You need to allow for spontaneity and the unquantifiable.",
+      "You are learning that a well-lived life cannot always be categorized, and that sometimes the best investments are the ones that don’t fit on a spreadsheet. It is about prioritizing the 'feeling' of life over the 'function' of it."
+    ],
+    "nextSteps": [
+      "Try one 'unoptimized' expense where you spend for the feeling rather than the function.",
+      "Take a day off from tracking to notice the emotions that arise when the guardrails are down.",
+      "Journal on the question: 'If everything stayed financially fine, what else would I want from my life?' to reconnect with your desires beyond security."
+    ]
   },
   "17": {
     "name": "The Nurturer",
-    "insights": "You use money as a love language, often prioritizing the comfort of others over your own stability. You have a deep need to care for people, but this often stems from a fear that you won’t be needed if you stop providing. This leaves you financially and emotionally depleted, harboring a quiet wish that someone would eventually take care of you.",
-    "directions": "You need to learn the art of 'sustainable selfishness.' Your growth lies in realizing that your well-being is the foundation upon which your ability to care for others rests. You must separate 'care' from 'cost' and find ways to nurture relationships that don’t involve financial transactions. You are learning to receive, not just to give.",
-    "nextSteps": "Separate the concept of 'care' from 'cash' by listing three non-monetary ways to support the people you love. Set giving limits that you can sustain indefinitely without resentment. Begin tracking your emotional energy alongside your spending to identify where your generosity is becoming self-destructive."
+    "insights": [
+      "You use money as a love language, often prioritizing the comfort of others over your own stability. You have a deep need to care for people, but this often stems from a fear that you won’t be needed if you stop providing.",
+      "This leaves you financially and emotionally depleted, harboring a quiet wish that someone would eventually take care of you."
+    ],
+    "directions": [
+      "You need to learn the art of 'sustainable selfishness.' Your growth lies in realizing that your well-being is the foundation upon which your ability to care for others rests.",
+      "You must separate 'care' from 'cost' and find ways to nurture relationships that don’t involve financial transactions. You are learning to receive, not just to give."
+    ],
+    "nextSteps": [
+      "Separate the concept of 'care' from 'cash' by listing three non-monetary ways to support the people you love.",
+      "Set giving limits that you can sustain indefinitely without resentment.",
+      "Begin tracking your emotional energy alongside your spending to identify where your generosity is becoming self-destructive."
+    ]
   },
   "18": {
     "name": "The Romantic",
-    "insights": "You are driven by aesthetics, emotion, and the desire for beauty. You use money to create moments and experiences, often resisting budgets because they feel cold and uninspiring. However, this pursuit of the 'vibe' often leads to a cycle of high highs and low lows, where the reality of the bill eventually crashes the fantasy.",
-    "directions": "You need to ground your romanticism in reality. Your growth involves understanding that structure is what protects the dream. You are learning that true beauty requires a foundation, and that a budget isn’t a killjoy — it’s a curator. By managing your resources, you ensure that you can sustain the beautiful life you crave rather than just renting it for a moment.",
-    "nextSteps": "Reflect on which past experiences have truly stayed with you versus those that faded quickly. Pair every indulgence with a grounding ritual, like journaling or saving, to connect the dream to reality. Create a 'beauty fund' with clear boundaries so you can pursue inspiration without inviting chaos."
+    "insights": [
+      "You are driven by aesthetics, emotion, and the desire for beauty. You use money to create moments and experiences, often resisting budgets because they feel cold and uninspiring.",
+      "However, this pursuit of the 'vibe' often leads to a cycle of high highs and low lows, where the reality of the bill eventually crashes the fantasy."
+    ],
+    "directions": [
+      "You need to ground your romanticism in reality. Your growth involves understanding that structure is what protects the dream.",
+      "You are learning that true beauty requires a foundation, and that a budget isn’t a killjoy — it’s a curator. By managing your resources, you ensure that you can sustain the beautiful life you crave rather than just renting it for a moment."
+    ],
+    "nextSteps": [
+      "Reflect on which past experiences have truly stayed with you versus those that faded quickly.",
+      "Pair every indulgence with a grounding ritual, like journaling or saving, to connect the dream to reality.",
+      "Create a 'beauty fund' with clear boundaries so you can pursue inspiration without inviting chaos."
+    ]
   },
   "19": {
     "name": "The Supporter",
-    "insights": "You have abdicated your financial agency to others. Whether it’s a partner, a parent, or an institution, you rely on someone else to make the big decisions and ensure your safety. While this feels comfortable, it leaves you with a fragile sense of self and a deep-seated anxiety about what would happen if that support disappeared.",
-    "directions": "Your path is one of gradual independence. You need to reclaim your power by taking ownership of small areas of your financial life. Your growth lies in proving to yourself that you are capable of understanding and managing your own resources. You are moving from a passenger mentality to a co-pilot mentality, building trust in your own judgment.",
-    "nextSteps": "Take full responsibility for one recurring financial task, such as paying a specific bill or managing a savings goal. Reflect on the specific beliefs that keep you from trusting your own competence. Share your small wins with others to build a sense of pride and reinforce your growing identity as a capable agent."
+    "insights": [
+      "You have abdicated your financial agency to others. Whether it’s a partner, a parent, or an institution, you rely on someone else to make the big decisions and ensure your safety.",
+      "While this feels comfortable, it leaves you with a fragile sense of self and a deep-seated anxiety about what would happen if that support disappeared."
+    ],
+    "directions": [
+      "Your path is one of gradual independence. You need to reclaim your power by taking ownership of small areas of your financial life.",
+      "Your growth lies in proving to yourself that you are capable of understanding and managing your own resources. You are moving from a passenger mentality to a co-pilot mentality, building trust in your own judgment."
+    ],
+    "nextSteps": [
+      "Take full responsibility for one recurring financial task, such as paying a specific bill or managing a savings goal.",
+      "Reflect on the specific beliefs that keep you from trusting your own competence.",
+      "Share your small wins with others to build a sense of pride and reinforce your growing identity as a capable agent."
+    ]
   },
   "20": {
     "name": "The Balancer",
-    "insights": "You live in a state of reaction, constantly swinging between two extremes to find equilibrium. You save intensely until you feel deprived, then spend loosely until you feel guilty. You crave harmony, but your method of achieving it is through extreme overcorrection rather than steady moderation. This creates a volatile emotional landscape.",
-    "directions": "You need to shrink the amplitude of your swings. Your growth involves finding the 'middle way' where you can save and spend simultaneously. You are learning to tolerate the tension of doing both, rather than needing to be purely one or the other. It is about establishing a wider 'comfort zone' where small fluctuations don't trigger a massive reaction.",
-    "nextSteps": "Set soft upper and lower limits for your accounts to create a safe range rather than a single target. When the urge to swing to an extreme rises, pause and ask what emotion is seeking balance. Focus on celebrating the midpoints — the days where you did 'okay' — rather than only valuing the days of extreme saving or extreme spending."
+    "insights": [
+      "You live in a state of reaction, constantly swinging between two extremes to find equilibrium. You save intensely until you feel deprived, then spend loosely until you feel guilty.",
+      "You crave harmony, but your method of achieving it is through extreme overcorrection rather than steady moderation. This creates a volatile emotional landscape."
+    ],
+    "directions": [
+      "You need to shrink the amplitude of your swings. Your growth involves finding the 'middle way' where you can save and spend simultaneously.",
+      "You are learning to tolerate the tension of doing both, rather than needing to be purely one or the other. It is about establishing a wider 'comfort zone' where small fluctuations don't trigger a massive reaction."
+    ],
+    "nextSteps": [
+      "Set soft upper and lower limits for your accounts to create a safe range rather than a single target.",
+      "When the urge to swing to an extreme rises, pause and ask what emotion is seeking balance.",
+      "Focus on celebrating the midpoints — the days where you did 'okay' — rather than only valuing the days of extreme saving or extreme spending."
+    ]
   },
   "21": {
     "name": "The Connector",
-    "insights": "You view money primarily as a social lubricant. Your financial decisions are heavily influenced by your peer group, and you often spend to maintain status, belonging, or harmony. You fear that if you change your financial behavior, you will lose your connection to your tribe. Your stability is dangerously tied to the approval of others.",
-    "directions": "You need to differentiate your financial identity from your social circle. Your growth lies in defining your own values independent of the group. You are learning that true connection allows for difference, and that you can belong without having to buy your way in. It is about building a 'solo' relationship with your money that is private and protected.",
-    "nextSteps": "Audit your spending to see which decisions are driven by the need for approval or fear of missing out. Create one financial routine that is entirely yours and influenced by no one else. Reflect deeply on the difference between the connection you can buy and the connection you must build through vulnerability and presence."
+    "insights": [
+      "You view money primarily as a social lubricant. Your financial decisions are heavily influenced by your peer group, and you often spend to maintain status, belonging, or harmony.",
+      "You fear that if you change your financial behavior, you will lose your connection to your tribe. Your stability is dangerously tied to the approval of others."
+    ],
+    "directions": [
+      "You need to differentiate your financial identity from your social circle. Your growth lies in defining your own values independent of the group.",
+      "You are learning that true connection allows for difference, and that you can belong without having to buy your way in. It is about building a 'solo' relationship with your money that is private and protected."
+    ],
+    "nextSteps": [
+      "Audit your spending to see which decisions are driven by the need for approval or fear of missing out.",
+      "Create one financial routine that is entirely yours and influenced by no one else.",
+      "Reflect deeply on the difference between the connection you can buy and the connection you must build through vulnerability and presence."
+    ]
   },
   "22": {
     "name": "The Creator",
-    "insights": "You see money as energy for creation. You are full of ideas and possibilities, viewing resources as fuel for your next big project. However, you struggle with the boredom of maintenance. You start many things but finish few, leaving a trail of unfinished investments and untapped potential. You fear that consistency will kill your creativity.",
-    "directions": "You need to integrate the mundane with the magical. Your growth involves understanding that maintenance is a form of creation — it creates the container in which your art can live. You are learning to pace yourself, turning your erratic bursts of creative energy into a sustainable flame. The goal is to finish what you start so you can build a legacy, not just a portfolio of drafts.",
-    "nextSteps": "Establish a 'sustainability rule' for your creative projects, limiting how much time or money you can invest until a previous phase is complete. Practice linking every new idea to an existing one to build continuity. Create a ritual for closure, framing completion as the ultimate act of creation."
+    "insights": [
+      "You see money as energy for creation. You are full of ideas and possibilities, viewing resources as fuel for your next big project. However, you struggle with the boredom of maintenance.",
+      "You start many things but finish few, leaving a trail of unfinished investments and untapped potential. You fear that consistency will kill your creativity."
+    ],
+    "directions": [
+      "You need to integrate the mundane with the magical. Your growth involves understanding that maintenance is a form of creation — it creates the container in which your art can live.",
+      "You are learning to pace yourself, turning your erratic bursts of creative energy into a sustainable flame. The goal is to finish what you start so you can build a legacy, not just a portfolio of drafts."
+    ],
+    "nextSteps": [
+      "Establish a 'sustainability rule' for your creative projects, limiting how much time or money you can invest until a previous phase is complete.",
+      "Practice linking every new idea to an existing one to build continuity.",
+      "Create a ritual for closure, framing completion as the ultimate act of creation."
+    ]
   },
   "23": {
     "name": "The Guardian",
-    "insights": "You see yourself as the moral compass of your household or community. You guard resources to protect values, often acting as the 'bad cop' who says no to frivolous things. While this comes from a place of care, your rigidity can feel controlling to others and isolating for you. You carry the weight of being the only one who 'takes it seriously.'",
-    "directions": "You need to put down the shield. Your growth lies in trusting that others can learn their own lessons and that the world is not as dangerous as you fear. You are learning to lead with inspiration rather than regulation. It is about softening your grip and allowing space for grace, fun, and mistakes — both for yourself and others.",
-    "nextSteps": "Intentionally loosen one moral rule regarding 'right' spending to see that safety does not collapse. Perform one generous act with absolutely no strings or lessons attached. Reflect on the fine line between safety and control, and identify where you may have crossed it in the name of protection."
+    "insights": [
+      "You see yourself as the moral compass of your household or community. You guard resources to protect values, often acting as the 'bad cop' who says no to frivolous things.",
+      "While this comes from a place of care, your rigidity can feel controlling to others and isolating for you. You carry the weight of being the only one who 'takes it seriously.'"
+    ],
+    "directions": [
+      "You need to put down the shield. Your growth lies in trusting that others can learn their own lessons and that the world is not as dangerous as you fear.",
+      "You are learning to lead with inspiration rather than regulation. It is about softening your grip and allowing space for grace, fun, and mistakes — both for yourself and others."
+    ],
+    "nextSteps": [
+      "Intentionally loosen one moral rule regarding 'right' spending to see that safety does not collapse.",
+      "Perform one generous act with absolutely no strings or lessons attached.",
+      "Reflect on the fine line between safety and control, and identify where you may have crossed it in the name of protection."
+    ]
   },
   "24": {
     "name": "The Achiever",
-    "insights": "You measure your life by the numbers. Net worth, credit score, savings rate — these are your scorecards. You are highly driven and productive, but you often feel empty because the goalpost keeps moving. You have confused 'winning' the game of money with winning the game of life, and you struggle to simply be without doing.",
-    "directions": "You need to redefine success. Your growth involves moving from quantitative goals to qualitative ones. You are learning that the ultimate asset is time and presence, not just capital. It is about finding an 'enough' point where you can step off the treadmill and actually enjoy the view you've been running toward. You need to value the process, not just the outcome.",
-    "nextSteps": "Introduce a qualitative goal to your list, such as 'feeling calm' or 'enjoying a hobby,' and treat it with the same seriousness as a financial target. Limit your active money goals to three to prevent optimization fatigue. Mandate one 'no-output' day per month where productivity is strictly forbidden."
+    "insights": [
+      "You measure your life by the numbers. Net worth, credit score, savings rate — these are your scorecards. You are highly driven and productive, but you often feel empty because the goalpost keeps moving.",
+      "You have confused 'winning' the game of money with winning the game of life, and you struggle to simply be without doing."
+    ],
+    "directions": [
+      "You need to redefine success. Your growth involves moving from quantitative goals to qualitative ones. You are learning that the ultimate asset is time and presence, not just capital.",
+      "It is about finding an 'enough' point where you can step off the treadmill and actually enjoy the view you've been running toward. You need to value the process, not just the outcome."
+    ],
+    "nextSteps": [
+      "Introduce a qualitative goal to your list, such as 'feeling calm' or 'enjoying a hobby,' and treat it with the same seriousness as a financial target.",
+      "Limit your active money goals to three to prevent optimization fatigue.",
+      "Mandate one 'no-output' day per month where productivity is strictly forbidden."
+    ]
   },
   "25": {
     "name": "The Helper",
-    "insights": "You have a compulsion to rescue. You sense the needs of others before they even articulate them, often stepping in to fix financial messes that aren't yours. This vigilance gives you a sense of purpose but traps you in a cycle of depletion and hidden resentment. You are likely trying to heal your own wounds by bandaging others.",
-    "directions": "You need to retire from your role as the savior. Your growth lies in respecting the dignity of others' struggles. You are learning that allowing people to face their own consequences is a form of love, and that your resources are for your own life first. It is about establishing boundaries that protect your peace and allow for true, equal relationships.",
-    "nextSteps": "Adopt a 'wait for the ask' policy: do not offer help unless explicitly requested. Journal about how each act of helping impacts your own energy levels. Practice the mantra 'I trust you to handle it' to release the burden of responsibility and empower those around you."
+    "insights": [
+      "You have a compulsion to rescue. You sense the needs of others before they even articulate them, often stepping in to fix financial messes that aren't yours.",
+      "This vigilance gives you a sense of purpose but traps you in a cycle of depletion and hidden resentment. You are likely trying to heal your own wounds by bandaging others."
+    ],
+    "directions": [
+      "You need to retire from your role as the savior. Your growth lies in respecting the dignity of others' struggles. You are learning that allowing people to face their own consequences is a form of love, and that your resources are for your own life first.",
+      "It is about establishing boundaries that protect your peace and allow for true, equal relationships."
+    ],
+    "nextSteps": [
+      "Adopt a 'wait for the ask' policy: do not offer help unless explicitly requested.",
+      "Journal about how each act of helping impacts your own energy levels.",
+      "Practice the mantra 'I trust you to handle it' to release the burden of responsibility and empower those around you."
+    ]
   },
   "26": {
     "name": "The Caretaker",
-    "insights": "You manage the emotional and financial well-being of your ecosystem. You are the rock that everyone leans on, but you are slowly being crushed by the weight. You feel guilty when you spend on yourself or take time off, believing that your role is to serve. This constant output without input is a recipe for a quiet, devastating burnout.",
-    "directions": "You need to learn that you are also a person worthy of care. Your growth involves reinvesting in yourself with the same intensity you invest in others. You are learning that self-neglect is not a virtue. The goal is to balance the flow of energy so that you are supported, nourished, and rested, enabling you to care from a place of abundance rather than obligation.",
-    "nextSteps": "Institute a strict 'helping limit' of one major offer per week to preserve your bandwidth. Track the feeling of your caretaking acts — distinguishing between those that feel connecting and those that feel draining. Commit to reinvesting one act of care back toward yourself for every act you give away."
+    "insights": [
+      "You manage the emotional and financial well-being of your ecosystem. You are the rock that everyone leans on, but you are slowly being crushed by the weight.",
+      "You feel guilty when you spend on yourself or take time off, believing that your role is to serve. This constant output without input is a recipe for a quiet, devastating burnout."
+    ],
+    "directions": [
+      "You need to learn that you are also a person worthy of care. Your growth involves reinvesting in yourself with the same intensity you invest in others.",
+      "You are learning that self-neglect is not a virtue. The goal is to balance the flow of energy so that you are supported, nourished, and rested, enabling you to care from a place of abundance rather than obligation."
+    ],
+    "nextSteps": [
+      "Institute a strict 'helping limit' of one major offer per week to preserve your bandwidth.",
+      "Track the feeling of your caretaking acts — distinguishing between those that feel connecting and those that feel draining.",
+      "Commit to reinvesting one act of care back toward yourself for every act you give away."
+    ]
   },
   "27": {
     "name": "The Sentinel",
-    "insights": "You are hyper-vigilant, constantly scanning the horizon for threats. You use strict rules and routines to create a perimeter of safety. While this keeps you secure, it creates a small life. You are so focused on preventing bad things from happening that you often prevent good things — surprise, delight, spontaneity — from entering.",
-    "directions": "You need to cultivate trust in your adaptability. Your growth lies in recognizing that you can handle the unknown. You are learning to replace the concrete walls of your comfort zone with a permeable boundary that lets life in. It is about shifting from a defensive posture to a receptive one, understanding that not all surprises are threats.",
-    "nextSteps": "Identify one low-stakes situation where you can let events unfold without intervening or planning. Soften a rule that currently limits your spontaneity and observe the outcome. Keep a record of what actually happens when you release control, using it as evidence to retrain your brain that uncertainty is not always dangerous."
+    "insights": [
+      "You are hyper-vigilant, constantly scanning the horizon for threats. You use strict rules and routines to create a perimeter of safety. While this keeps you secure, it creates a small life.",
+      "You are so focused on preventing bad things from happening that you often prevent good things — surprise, delight, spontaneity — from entering."
+    ],
+    "directions": [
+      "You need to cultivate trust in your adaptability. Your growth lies in recognizing that you can handle the unknown. You are learning to replace the concrete walls of your comfort zone with a permeable boundary that lets life in.",
+      "It is about shifting from a defensive posture to a receptive one, understanding that not all surprises are threats."
+    ],
+    "nextSteps": [
+      "Identify one low-stakes situation where you can let events unfold without intervening or planning.",
+      "Soften a rule that currently limits your spontaneity and observe the outcome.",
+      "Keep a record of what actually happens when you release control, using it as evidence to retrain your brain that uncertainty is not always dangerous."
+    ]
   },
   "28": {
     "name": "The Theorist",
-    "insights": "You seek mastery through information. You believe that if you can just understand the system perfectly — the market, the budget, the tax code — you will be safe. You devour information to quell your anxiety, but this often leads to 'analysis paralysis' where you know everything but do nothing. You are hiding in the theory to avoid the practice.",
-    "directions": "You need to move from head to gut. Your growth involves trusting your intuition and taking action before you have 100% of the data. You are learning that wisdom comes from experience, not just study. The goal is to become an imperfect practitioner rather than a perfect theorist, embracing the risk that comes with living in the real world.",
-    "nextSteps": "Replace one session of data analysis with a session of emotional reflection, asking 'What do I feel?' instead of 'What do I know?'. Simplify a complex system you've built to make it more usable. Practice acting on 'incomplete knowledge' by making small, low-risk bets to build confidence in your ability to navigate uncertainty."
+    "insights": [
+      "You seek mastery through information. You believe that if you can just understand the system perfectly — the market, the budget, the tax code — you will be safe.",
+      "You devour information to quell your anxiety, but this often leads to 'analysis paralysis' where you know everything but do nothing. You are hiding in the theory to avoid the practice."
+    ],
+    "directions": [
+      "You need to move from head to gut. Your growth involves trusting your intuition and taking action before you have 100% of the data.",
+      "You are learning that wisdom comes from experience, not just study. The goal is to become an imperfect practitioner rather than a perfect theorist, embracing the risk that comes with living in the real world."
+    ],
+    "nextSteps": [
+      "Replace one session of data analysis with a session of emotional reflection, asking 'What do I feel?' instead of 'What do I know?'.",
+      "Simplify a complex system you've built to make it more usable.",
+      "Practice acting on 'incomplete knowledge' by making small, low-risk bets to build confidence in your ability to navigate uncertainty."
+    ]
   },
   "29": {
     "name": "The Leader",
-    "insights": "You carry the weight of the world on your shoulders. You feel personally responsible for the success of your family, team, or community. While you project strength, you secretly fear that if you show weakness or ask for help, you will lose your authority. This isolation is lonely and prevents others from stepping up.",
-    "directions": "You need to democratize responsibility. Your growth lies in vulnerability and trust. You are learning that true leadership is about empowering others to lead alongside you, not carrying them on your back. It is about admitting when you don't know the answer and allowing others to share the burden, creating a more resilient collective.",
-    "nextSteps": "Identify one decision or task you are guarding and delegate it completely. Reflect on what your role would look like if you weren't the one 'in charge' of everything. Shift your focus from creating solo solutions to creating shared goals that require collective ownership."
+    "insights": [
+      "You carry the weight of the world on your shoulders. You feel personally responsible for the success of your family, team, or community. While you project strength, you secretly fear that if you show weakness or ask for help, you will lose your authority.",
+      "This isolation is lonely and prevents others from stepping up."
+    ],
+    "directions": [
+      "You need to democratize responsibility. Your growth lies in vulnerability and trust. You are learning that true leadership is about empowering others to lead alongside you, not carrying them on your back.",
+      "It is about admitting when you don't know the answer and allowing others to share the burden, creating a more resilient collective."
+    ],
+    "nextSteps": [
+      "Identify one decision or task you are guarding and delegate it completely.",
+      "Reflect on what your role would look like if you weren't the one 'in charge' of everything.",
+      "Shift your focus from creating solo solutions to creating shared goals that require collective ownership."
+    ]
   },
   "30": {
     "name": "The Visionary",
-    "insights": "You live in the clouds, always seeing the big picture and the next great possibility. You are inspiring and ambitious, but you often trip over the details. You struggle with the mundane execution required to bring your visions to life, leading to a cycle of starting huge projects and abandoning them when the grind sets in. You want the destination without the journey.",
-    "directions": "You need to fall in love with the process. Your growth involves grounding your vision in rhythm and routine. You are learning that the 'boring' steps are actually the most important ones. The goal is to break your massive dreams down into microscopic, actionable steps and to find satisfaction in the daily brick-laying, not just the finished cathedral.",
-    "nextSteps": "Commit to finishing one dream before starting another to break the cycle of abandonment. Break every new idea down into the 'first 1%' step to make it concrete immediately. Review and appreciate what is working in your life right now, rather than constantly focusing on what is missing or what is next."
+    "insights": [
+      "You live in the clouds, always seeing the big picture and the next great possibility. You are inspiring and ambitious, but you often trip over the details.",
+      "You struggle with the mundane execution required to bring your visions to life, leading to a cycle of starting huge projects and abandoning them when the grind sets in. You want the destination without the journey."
+    ],
+    "directions": [
+      "You need to fall in love with the process. Your growth involves grounding your vision in rhythm and routine. You are learning that the 'boring' steps are actually the most important ones.",
+      "The goal is to break your massive dreams down into microscopic, actionable steps and to find satisfaction in the daily brick-laying, not just the finished cathedral."
+    ],
+    "nextSteps": [
+      "Commit to finishing one dream before starting another to break the cycle of abandonment.",
+      "Break every new idea down into the 'first 1%' step to make it concrete immediately.",
+      "Review and appreciate what is working in your life right now, rather than constantly focusing on what is missing or what is next."
+    ]
   },
   "31": {
     "name": "The Mastermind",
-    "insights": "You equate control with excellence. You believe that success is a direct result of your ability to manipulate variables and force outcomes. You likely have significant achievements, but you find it impossible to rest because you believe that if you relax, you will lose your edge. Your life is successful on paper but stressful in practice.",
-    "directions": "You need to surrender to the flow. Your growth lies in redefining success to include peace and ease. You are learning that not everything requires force, and that sometimes the best results come from allowing things to unfold. It is about moving from a 'power over' dynamic to a 'power with' dynamic, finding strength in flexibility rather than rigidity.",
-    "nextSteps": "Define a version of success that includes no numbers — focusing instead on peace, creativity, and relationships. Collaborate on a decision where you do not hold the final authority. Intentionally break one self-imposed rule this week to observe that your safety and success are more robust than you think."
+    "insights": [
+      "You equate control with excellence. You believe that success is a direct result of your ability to manipulate variables and force outcomes. You likely have significant achievements, but you find it impossible to rest because you believe that if you relax, you will lose your edge.",
+      "Your life is successful on paper but stressful in practice."
+    ],
+    "directions": [
+      "You need to surrender to the flow. Your growth lies in redefining success to include peace and ease. You are learning that not everything requires force, and that sometimes the best results come from allowing things to unfold.",
+      "It is about moving from a 'power over' dynamic to a 'power with' dynamic, finding strength in flexibility rather than rigidity."
+    ],
+    "nextSteps": [
+      "Define a version of success that includes no numbers — focusing instead on peace, creativity, and relationships.",
+      "Collaborate on a decision where you do not hold the final authority.",
+      "Intentionally break one self-imposed rule this week to observe that your safety and success are more robust than you think."
+    ]
   },
   "32": {
     "name": "The Builder",
-    "insights": "You are relentless. Your identity is fused with growth, expansion, and 'more.' You are terrified of stagnation, viewing stillness as a sign of decline. This drive has built much, but it has likely crowded out intimacy, rest, and the simple ability to enjoy what you have already created. You are always hungry, never full.",
-    "directions": "You need to learn the art of maintenance. Your growth involves recognizing that 'enough' is a valid destination. You are learning to shift from a phase of constant acquisition to a phase of stewardship and enjoyment. The goal is to build a life you don't need to escape from, where you can sit in the house you've built without immediately planning an addition.",
-    "nextSteps": "List the things in your life you would be happy to keep exactly as they are for a year. Dedicate one day a month to pure maintenance and appreciation, with a strict ban on expansion or new projects. Ask yourself the hard question: 'What part of me wants to rest but is too afraid to admit it?'"
+    "insights": [
+      "You are relentless. Your identity is fused with growth, expansion, and 'more.' You are terrified of stagnation, viewing stillness as a sign of decline.",
+      "This drive has built much, but it has likely crowded out intimacy, rest, and the simple ability to enjoy what you have already created. You are always hungry, never full."
+    ],
+    "directions": [
+      "You need to learn the art of maintenance. Your growth involves recognizing that 'enough' is a valid destination.",
+      "You are learning to shift from a phase of constant acquisition to a phase of stewardship and enjoyment. The goal is to build a life you don't need to escape from, where you can sit in the house you've built without immediately planning an addition."
+    ],
+    "nextSteps": [
+      "List the things in your life you would be happy to keep exactly as they are for a year.",
+      "Dedicate one day a month to pure maintenance and appreciation, with a strict ban on expansion or new projects.",
+      "Ask yourself the hard question: 'What part of me wants to rest but is too afraid to admit it?'"
+    ]
   }
 }
