@@ -31,5 +31,20 @@
   "result_body_item2": "2. Growth Direction",
   "result_body_item3": "3. What to Do Next",
   "result_trait_title": "Your Trait Score",
-  "result_trait_desc": "Scoring {score} in {trait}, "
+  "result_trait_desc": "Scoring {score} in {trait}, ",
+  
+  "result_footer_title": "You Just Uncovered Patterns....",
+  "result_footer_desc": "You just uncovered patterns that most people take years to recognize. Don’t lose that clarity—save your results now and turn these insights into structure.",
+  "result_footer_email_label": "Email Address",
+  "result_footer_agree_pre": "I agree to the Charm",
+  "result_footer_privacy": "Privacy Policy",
+  "result_footer_and": "and",
+  "result_footer_terms": "Terms of Service",
+  "result_footer_agree_suffix": ".",
+  "result_footer_cta": "Create an account with your results",
+  "result_footer_label_date": "TEST DATE",
+  "result_footer_label_code": "TEST CODE",
+  "result_footer_label_type": "RESULT TYPE",
+  "result_footer_label_family": "PATTERN FAMILY",
+  "result_footer_label_scores": "SCORES"
 }

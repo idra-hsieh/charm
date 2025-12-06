@@ -31,5 +31,20 @@
   "result_body_item2": "2. 成長方向",
   "result_body_item3": "3. 下一步行動",
   "result_trait_title": "您的特質分數",
-  "result_trait_desc": "您的 {trait} 得分為 {score}。"
+  "result_trait_desc": "您的 {trait} 得分為 {score}。",
+
+  "result_footer_title": "您剛剛發現了某些模式……",
+  "result_footer_desc": "您剛剛發現了大多數人花費數年才能辨識出的模式。請把握這份清晰——立即儲存您的結果，將這些洞察轉化為具體的架構。",
+  "result_footer_email_label": "電子郵件",
+  "result_footer_agree_pre": "我同意 Charm 的",
+  "result_footer_privacy": "隱私權政策",
+  "result_footer_and": "與",
+  "result_footer_terms": "服務條款",
+  "result_footer_agree_suffix": "。",
+  "result_footer_cta": "使用您的測驗結果建立帳戶",
+  "result_footer_label_date": "TEST DATE",
+  "result_footer_label_code": "TEST CODE",
+  "result_footer_label_type": "RESULT TYPE",
+  "result_footer_label_family": "PATTERN FAMILY",
+  "result_footer_label_scores": "SCORES"
 }

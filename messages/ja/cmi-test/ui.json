@@ -31,5 +31,20 @@
   "result_body_item2": "2. 成長の方向性",
   "result_body_item3": "3. 次にすべきこと",
   "result_trait_title": "あなたの特性スコア",
-  "result_trait_desc": "{trait} のスコアは {score} となりました。"
+  "result_trait_desc": "{trait} のスコアは {score} となりました。",
+
+  "result_footer_title": "あなたは今、パターンを発見しました...",
+  "result_footer_desc": "多くの人が認識するのに何年もかかるパターンを、あなたは今発見しました。この明快さを手放さないでください——今すぐ結果を保存し、これらの洞察を構造に変えましょう。",
+  "result_footer_email_label": "メールアドレス",
+  "result_footer_agree_pre": "Charmの",
+  "result_footer_privacy": "プライバシーポリシー",
+  "result_footer_and": "と",
+  "result_footer_terms": "利用規約",
+  "result_footer_agree_suffix": "に同意します。",
+  "result_footer_cta": "テスト結果を保存してアカウントを作成",
+  "result_footer_label_date": "TEST DATE",
+  "result_footer_label_code": "TEST CODE",
+  "result_footer_label_type": "RESULT TYPE",
+  "result_footer_label_family": "PATTERN FAMILY",
+  "result_footer_label_scores": "SCORES"
 }

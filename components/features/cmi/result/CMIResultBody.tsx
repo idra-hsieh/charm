@@ -107,7 +107,7 @@ export default function CMIResultBody({ resultData }: Props) {
         </aside>
 
         {/* Main Content */}
-        <div className="flex-1 space-y-15">
+        <div className="flex-1 space-y-15 max-w-[600px] mx-auto">
           
           {/* Section 1: Type Insights */}
           <section id="section-1" className="scroll-mt-32 space-y-6">

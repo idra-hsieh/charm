@@ -79,10 +79,7 @@ export default function CMITraitScores({ traitScores }: Props) {
 
       <RadarChartFigure traitScores={traitScores} />
 
-      {/* 1. Navigation Tabs - Updated Strategy
-         Removed 'max-w-[600px]'. Now uses a logic-based break inside the loop.
-         This guarantees 3 items on top and 2 on bottom regardless of text length (CN/JP/EN).
-      */}
+      {/* 1. Navigation Tabs */}
       <div className="flex flex-wrap justify-center gap-3 mb-10 w-full mx-auto">
         {TRAITS.map((trait, index) => {
           const score = traitScores[trait];
