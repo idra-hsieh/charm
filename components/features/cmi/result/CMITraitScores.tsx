@@ -12,6 +12,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import RadarChartFigure from "./trait-scores/RadarChartFigure";
 
 interface Props {
   traitScores: TraitScoresByTrait;
@@ -75,6 +76,8 @@ export default function CMITraitScores({ traitScores }: Props) {
           {tUi("result_trait_title")}
         </h1>
       </div>
+
+      <RadarChartFigure traitScores={traitScores} />
 
       {/* 1. Navigation Tabs - Updated Strategy
          Removed 'max-w-[600px]'. Now uses a logic-based break inside the loop.
