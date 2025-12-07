@@ -33,6 +33,29 @@ const BUTTON_ACTIVE_STYLES = cn(
   "active:translate-y-0 active:shadow-[0_3px_10px_rgba(187,147,100,0.25)]"
 );
 
+function InfoRow({ label, value }: { label: string; value: string | number }) {
+  return (
+    <motion.div
+      className="flex items-start gap-5 w-full"
+      initial={{ opacity: 0, x: 8 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.4 }}
+    >
+      <span className="mt-[8px] inline-block h-1.5 w-1.5 rounded-full bg-accent" />
+
+      <div className="flex flex-wrap items-baseline gap-x-2 text-left">
+        <span className="text-xs uppercase tracking-[0.15em] text-background/60 font-medium">
+          {label}:
+        </span>
+        <span className="text-sm font-[500] text-accent tracking-[0.05em]">
+          {value}
+        </span>
+      </div>
+    </motion.div>
+  );
+}
+
 /**
  * CMIResultFooter
  * Displays the result summary (visuals + stats) and handles the lead generation funnel (email capture).
@@ -67,7 +90,7 @@ function CMIResultFooter({ resultData }: Props) {
     }
 
     // 2. Mock success feedback (Feature disabled)
-    // TODO: Replace with actual API call to link email with result ID
+    // TO-DO: Replace with actual API call to link email with result ID
     setShowEmailWarning(false);
     setShowDevMessage(true);
     
@@ -120,17 +143,15 @@ function CMIResultFooter({ resultData }: Props) {
   return (
     <section className="w-full px-4 py-10 flex flex-col items-center gap-12">
       
-      {/* SECTION 1: Visualization & Metadata
-        Displays the app preview image alongside key result metrics.
-      */}
-      <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-20 items-center px-4">
+      {/* SECTION 1: Visualization & Metadata */}
+      <div className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center px-4">
         {/* Left: Dynamic App Preview */}
         <motion.div 
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="relative w-full aspect-[4/3] md:aspect-auto md:h-[300px] flex items-center justify-center md:justify-end"
+          className="relative w-full aspect-[4/3] md:aspect-auto md:h-[300px] flex items-center justify-center md:justify-start md:pl-6"
         >
           <div className="relative w-full h-full max-w-[500px]">
             <Image 
@@ -149,7 +170,7 @@ function CMIResultFooter({ resultData }: Props) {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="flex flex-col gap-4 text-left pl-4 md:pl-0"
+          className="flex flex-col gap-4 text-left w-full max-w-sm pl-6 md:pl-15"
         >
           <InfoRow 
             label={tUi("result_footer_label_date")} 
@@ -174,10 +195,7 @@ function CMIResultFooter({ resultData }: Props) {
         </motion.div>
       </div>
 
-      {/* SECTION 2: Lead Capture
-        Glassmorphism card for email collection. 
-        Uses "under development" placeholder for current iteration.
-      */}
+      {/* SECTION 2: Lead Capture */}
       <motion.div
         initial={{ opacity: 0, y: 20, scale: 0.98 }}
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
@@ -295,19 +313,6 @@ function CMIResultFooter({ resultData }: Props) {
 
       </motion.div>
     </section>
-  );
-}
-
-function InfoRow({ label, value }: { label: string; value: string | number }) {
-  return (
-    <div className="flex flex-wrap items-baseline gap-x-2">
-      <span className="text-xs uppercase tracking-[0.15em] text-background/60 font-medium">
-        {label}:
-      </span>
-      <span className="text-sm font-[500] text-accent tracking-[0.05em]">
-        {value}
-      </span>
-    </div>
   );
 }
 
