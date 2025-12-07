@@ -2,7 +2,7 @@ import { render } from "@react-email/render";
 import CMIResultEmail from "@/components/emails/CMIResultEmail";
 import { buildResultEmailContent } from "@/lib/cmi/email";
 import { getResult, TraitScoresByTrait } from "@/lib/cmi/content";
-import { Trait } from "@/lib/cmi/types";
+import { Pole, Trait } from "@/lib/cmi/types";
 import type { NextRequest } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase";
 import { StoredCMIResult } from "@/lib/cmi/api-types";
@@ -11,10 +11,12 @@ const makeScore = (trait: Trait, rawDirection: number) => {
   const highPercent = Math.round(((rawDirection + 1) / 2) * 100);
   const lowPercent = 100 - highPercent;
 
+  const dominant: Pole = rawDirection >= 0 ? "high" : "low";
+
   return {
     trait,
     rawDirection,
-    dominant: (rawDirection >= 0 ? "high" : "low") as const,
+    dominant,
     lowPercent,
     highPercent,
     isBalancedZone: Math.abs(rawDirection) < 0.2,
