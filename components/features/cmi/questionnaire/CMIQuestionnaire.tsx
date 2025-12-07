@@ -201,7 +201,7 @@ function CMIQuestionnaire({ onComplete, onProgressChange }: Props) {
               <motion.p 
                 initial={{ opacity: 0, y: 2 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="absolute top-full left-1/2 -translate-x-1/2 mt-6 text-xs text-background/75 tracking-wide whitespace-nowrap"
+                className="absolute top-full left-1/2 -translate-x-1/2 mt-6 text-xs text-background/75 tracking-wide whitespace-nowrap translate-y-3"
               >
                 {t("warning_incomplete")}
               </motion.p>
