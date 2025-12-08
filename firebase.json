@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "target": "charm-money",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "charm",
+          "region": "us-central1"
+        }
+      }
+    ]
+  }
+}
