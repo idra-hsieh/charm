@@ -14,15 +14,17 @@ A modern Next.js application designed to facilitate the Charm Money Identities (
 
 ## Tech Stack
 
-- **Framework**: Next.js 16 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS 4
-- **UI Components**: Radix UI, Lucide React
-- **Animations**: Framer Motion
-- **Data Visualization**: Recharts
-- **Backend/Auth**: Supabase
-- **Internationalization**: next-intl
-- **Email**: React Email, Nodemailer
+| Category             | Technologies                                |
+|----------------------|----------------------------------------------|
+| Framework            | Next.js 16 (App Router)                      |
+| Language             | TypeScript                                   |
+| Styling              | Tailwind CSS 4                               |
+| UI Components        | Radix UI, Lucide React                       |
+| Animations           | Framer Motion                                |
+| Data Visualization   | Recharts                                     |
+| Backend / Auth       | Supabase                                     |
+| Internationalization | next-intl                                    |
+| Email                | React Email, Nodemailer                      |
 
 ## Project Structure
 
