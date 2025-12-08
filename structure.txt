@@ -1,6 +1,8 @@
 // tree -l 15 --ignore "node_modules,.next,.git" > structure.txt
 
-/Users/idra-hsieh/Documents/Work/SWE/serious-projects/charm-frontend
+/Users/idra-hsieh/Documents/Work/SWE/serious-projects/charm
+├── Dockerfile
+├── LICENSE
 ├── README.md
 ├── app
 |  ├── [locale]
@@ -66,12 +68,18 @@
 |  |  |     └── prompts
 |  |  |        ├── PageClient.tsx
 |  |  |        └── page.tsx
+|  |  ├── email-preview
+|  |  |  └── page.tsx
 |  |  └── layout.tsx
 |  ├── api
-|  |  └── cmi-test
+|  |  └── cmi
+|  |     ├── preview-email
+|  |     |  └── route.tsx
 |  |     ├── result
 |  |     |  └── [code]
 |  |     |     └── route.ts
+|  |     ├── send-result
+|  |     |  └── route.tsx
 |  |     └── submit
 |  |        └── route.ts
 |  ├── favicon.ico
@@ -87,20 +95,28 @@
 ├── components
 |  ├── animation
 |  |  └── PageTransition.tsx
+|  ├── emails
+|  |  └── CMIResultEmail.tsx
 |  ├── features
 |  |  └── cmi
 |  |     ├── questionnaire
 |  |     |  ├── CMIQuestionCard.tsx
 |  |     |  ├── CMIQuestionnaire.tsx
 |  |     |  ├── CMITestHeader.tsx
-|  |     |  └── ProgressBar.tsx
+|  |     |  ├── ProgressBar.tsx
+|  |     |  └── form
+|  |     |     ├── CMIQuestionCard.tsx
+|  |     |     └── LikertScale.tsx
 |  |     └── result
+|  |        ├── CMIResultBody.tsx
+|  |        ├── CMIResultFooter.tsx
 |  |        ├── CMIResultHeader.tsx
-|  |        ├── CMIResults.tsx
-|  |        └── RadarChart.tsx
-|  ├── form
-|  |  ├── CMIQuestionCard.tsx
-|  |  └── LikertScale.tsx
+|  |        ├── CMITraitScores.tsx
+|  |        ├── header-slides
+|  |        |  ├── FamilySlide.tsx
+|  |        |  └── TypeSlide.tsx
+|  |        └── trait-scores
+|  |           └── RadarChartFigure.tsx
 |  ├── layout
 |  |  ├── footer
 |  |  |  └── Footer.tsx
@@ -113,15 +129,19 @@
 |  |     └── UtilityNav.tsx
 |  └── ui
 |     ├── button.tsx
+|     ├── card.tsx
+|     ├── chart.tsx
 |     ├── checkbox.tsx
 |     ├── dropdown-menu.tsx
 |     ├── icons
 |     |  └── lucide-globe.tsx
 |     ├── input.tsx
 |     ├── label.tsx
-|     └── sheet.tsx
+|     ├── sheet.tsx
+|     └── tooltip.tsx
 ├── components.json
 ├── eslint.config.mjs
+├── firebase.json
 ├── i18n
 |  ├── request.ts
 |  └── routing.ts
@@ -130,6 +150,7 @@
 |  |  ├── api-types.ts
 |  |  ├── content.ts
 |  |  ├── data.ts
+|  |  ├── email.ts
 |  |  ├── generate-code.ts
 |  |  ├── scoring.ts
 |  |  └── types.ts
@@ -141,6 +162,7 @@
 |  |  ├── cmi-test
 |  |  |  ├── families.json
 |  |  |  ├── questions.json
+|  |  |  ├── traits.json
 |  |  |  ├── types.json
 |  |  |  └── ui.json
 |  |  ├── footer.json
@@ -151,6 +173,7 @@
 |  |  ├── cmi-test
 |  |  |  ├── families.json
 |  |  |  ├── questions.json
+|  |  |  ├── traits.json
 |  |  |  ├── types.json
 |  |  |  └── ui.json
 |  |  ├── footer.json
@@ -161,6 +184,7 @@
 |     ├── cmi-test
 |     |  ├── families.json
 |     |  ├── questions.json
+|     |  ├── traits.json
 |     |  ├── types.json
 |     |  └── ui.json
 |     ├── footer.json
@@ -176,6 +200,7 @@
 ├── public
 |  ├── favicon.ico
 |  └── images
+|     ├── app-views.png
 |     ├── avatars
 |     |  ├── 01-TheReflectors.png
 |     |  ├── 02-TheIdealists.png
@@ -201,9 +226,9 @@
 ├── structure.txt
 └── tsconfig.json
 
-directory: 2681 file: 27113
+directory: 3866 file: 34683
 
-ignored: directory (33)
+ignored: directory (38)
 
 
 [2K[1G
