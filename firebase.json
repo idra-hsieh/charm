@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "target": "charm-money",
+    "site": "charm-money",
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -26,6 +26,8 @@
           }
         ]
       }
-    ]
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
   }
 }

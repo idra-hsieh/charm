@@ -7,6 +7,7 @@ WORKDIR /app
 # Copy package.json and package-lock.json
 COPY package.json package-lock.json ./
 # Install dependencies (use ci for deterministic installs)
+RUN npm install -g npm@latest
 RUN npm ci
 
 # Stage 2: Build the project (Builder)

@@ -1,15 +1,5 @@
 {
   "projects": {
     "default": "project-3bbad66c-a6d9-4ad8-bb1"
-  },
-  "targets": {
-    "project-3bbad66c-a6d9-4ad8-bb1": {
-      "hosting": {
-        "charm-money": [
-          "charm-money"
-        ]
-      }
-    }
-  },
-  "etags": {}
+  }
 }
