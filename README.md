@@ -19,7 +19,7 @@ A modern Next.js application designed to facilitate the Charm Money Identities (
 | Framework            | Next.js 16 (App Router)                      |
 | Language             | TypeScript                                   |
 | Styling              | Tailwind CSS 4                               |
-| UI Components        | Radix UI, Lucide React                       |
+| UI Components        | Shadcn, Lucide React                       |
 | Animations           | Framer Motion                                |
 | Data Visualization   | Recharts                                     |
 | Backend / Auth       | Supabase                                     |
