@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "deploy:prod": "gcloud builds submit --tag us-central1-docker.pkg.dev/project-3bbad66c-a6d9-4ad8-bb1/cloud-run-source-deploy/charm . && gcloud run deploy charm --image us-central1-docker.pkg.dev/project-3bbad66c-a6d9-4ad8-bb1/cloud-run-source-deploy/charm --region us-central1"
+    "deploy:prod": "gcloud builds submit --tag us-central1-docker.pkg.dev/project-3bbad66c-a6d9-4ad8-bb1/cloud-run-source-deploy/charm . && gcloud run deploy charm --image us-central1-docker.pkg.dev/project-3bbad66c-a6d9-4ad8-bb1/cloud-run-source-deploy/charm --region us-central1 && firebase deploy --only hosting:charm-money"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.3.3",
