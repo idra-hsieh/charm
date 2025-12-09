@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import type { NavItem } from "@/lib/navigation";
 import { useLocale } from "next-intl";
+import { routing } from "@/i18n/routing";
 
 type NavLinkProps = {
   item: NavItem;
@@ -15,7 +16,7 @@ type NavLinkProps = {
   variant?: "desktop" | "mobile";
 };
 
-const LOCALES = ["en", "ja"] as const;
+const LOCALES = routing.locales;
 type Locale = (typeof LOCALES)[number];
 
 function stripLocale(pathname: string): string {
