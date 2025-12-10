@@ -19,35 +19,37 @@ export default function CMIResultBody({ resultData }: Props) {
   
   const [activeSection, setActiveSection] = useState("section-1");
 
-  // Scroll Spy Logic (Unchanged)
   useEffect(() => {
-    const handleScroll = () => {
-      const sections = ["section-1", "section-2", "section-3"];
-      
-      for (const sectionId of sections) {
-        const element = document.getElementById(sectionId);
-        if (element) {
-          const rect = element.getBoundingClientRect();
-          if ((rect.top >= 0 && rect.top <= 350) || (rect.top < 0 && rect.bottom > 150)) {
-            setActiveSection(sectionId);
-            break;
-          }
-        }
-      }
-    };
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
 
-    window.addEventListener("scroll", handleScroll);
-    handleScroll(); 
-    return () => window.removeEventListener("scroll", handleScroll);
+        if (visible[0]?.target?.id) {
+          setActiveSection(visible[0].target.id);
+        }
+      },
+      {
+        root: null,
+        threshold: [0.25, 0.5, 0.75],
+        rootMargin: "-120px 0px -35% 0px", // account for sticky header and bottom viewport
+      }
+    );
+
+    ["section-1", "section-2", "section-3"].forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+
+    return () => observer.disconnect();
   }, []);
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       const offset = 120;
-      const bodyRect = document.body.getBoundingClientRect().top;
-      const elementRect = element.getBoundingClientRect().top;
-      const elementPosition = elementRect - bodyRect;
+      const elementPosition = element.getBoundingClientRect().top + window.scrollY;
       const offsetPosition = elementPosition - offset;
 
       window.scrollTo({
@@ -84,10 +86,10 @@ export default function CMIResultBody({ resultData }: Props) {
 
   return (
     <div className="w-full max-w-5xl mx-auto px-15 py-15 slide:py-20 bg-marble rounded-3xl">
-      <div className="flex flex-col slide:flex-row gap-15 relative">
+      <div className="flex flex-col slide:flex-row items-start gap-15 relative">
         
-        {/* Sidebar Navigation (Unchanged) */}
-        <aside className="hidden slide:block w-55 flex-shrink-0 sticky top-32 h-fit bg-background/40 bg-cover bg-center rounded-2xl shadow-2xl border border-stone-100/50">
+        {/* Sidebar Navigation */}
+        <aside className="hidden slide:block w-55 flex-shrink-0 self-start sticky top-32 h-fit bg-background/40 bg-cover bg-center rounded-2xl shadow-2xl border border-stone-100/50">
           <nav className="p-6 space-y-5">
             {navItems.map((item) => (
               <button

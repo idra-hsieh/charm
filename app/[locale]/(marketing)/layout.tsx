@@ -7,10 +7,10 @@ export default function MarketingLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex min-h-screen w-full flex-col overflow-x-hidden">
+    <div className="flex min-h-screen w-full flex-col">
       <Header />
-      <div className="flex flex-1 bg-gradient-to-b from-[#050505] to-[#40403F] -mt-[25px] overflow-x-hidden">
-        <main className="flex flex-1 flex-col w-full overflow-x-hidden">
+      <div className="flex flex-1 bg-gradient-to-b from-[#050505] to-[#40403F] -mt-[25px]">
+        <main className="flex flex-1 flex-col w-full">
           {children}
         </main>
       </div>
