@@ -130,6 +130,11 @@
 }
 
 @layer base {
+  html {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
   * {
     @apply border-border outline-ring/50;
   }
@@ -140,6 +145,8 @@
     background-size: cover;
     background-position: center;
     color: var(--foreground);
+    max-width: 100vw;
+    overflow-x: hidden;
   }
 }
 
